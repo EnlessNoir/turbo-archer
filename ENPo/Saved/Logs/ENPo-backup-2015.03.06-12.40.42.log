@@ -1,0 +1,753 @@
+﻿Log file open, 03/06/15 11:57:30
+LogInit:Display: Running engine for game: ENPo
+LogInit: Version: 4.7.2-2467323+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar  2 2015 23:16:34
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.06-17.57.30:114][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.03.06-17.57.30:148][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.06-17.57.30:299][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.06-17.57.30:309][  0]LogInit: Object subsystem initialized
+[2015.03.06-17.57.30:334][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.06-17.57.30:334][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.06-17.57.30:334][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.06-17.57.30:334][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.06-17.57.30:334][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.06-17.57.30:334][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.06-17.57.30:350][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.06-17.57.30:350][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.06-17.57.30:431][  0]LogInit: Computer: YARDLEY-PC
+[2015.03.06-17.57.30:431][  0]LogInit: User: YardleyGutierrez
+[2015.03.06-17.57.30:431][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.03.06-17.57.30:431][  0]LogInit: High frequency timer resolution =2.435884 MHz
+[2015.03.06-17.57.30:431][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=131072.0GB
+[2015.03.06-17.57.30:431][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.06-17.57.30:431][  0]LogMemory: Process Physical Memory: 45.88 MB used, 45.88 MB peak
+[2015.03.06-17.57.30:431][  0]LogMemory: Process Virtual Memory: 26.25 MB used, 26.25 MB peak
+[2015.03.06-17.57.30:431][  0]LogMemory: Physical Memory: 1597.02 MB used, 4002.70 MB total
+[2015.03.06-17.57.30:431][  0]LogMemory: Virtual Memory: 285.55 MB used, 134217728.00 MB total
+[2015.03.06-17.57.30:823][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.03.06-17.57.30:823][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.03.06-17.57.30:872][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.03.06-17.57.30:872][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.03.06-17.57.30:872][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.06-17.57.30:887][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2015.03.06-17.57.30:891][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.06-17.57.32:148][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.06-17.57.32:415][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.06-17.57.45:374][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.06-17.57.46:878][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.06-17.57.47:033][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.06-17.57.47:809][  0]LogDerivedDataCache: Loaded boot cache 0.78s 39MB C:/Users/Yardley Gutierrez/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.06-17.57.47:809][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Yardley Gutierrez/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.06-17.57.47:809][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.06-17.57.47:809][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.06-17.57.47:999][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.06-17.57.48:031][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Yardley Gutierrez/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.06-17.57.58:676][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.06-17.57.58:676][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.06-17.58.04:013][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.06-17.58.04:573][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.06-17.58.55:585][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.06-17.58.59:119][  0]SourceControl: Info Source control is disabled
+[2015.03.06-17.58.59:140][  0]SourceControl: Info Source control is disabled
+[2015.03.06-17.58.59:141][  0]SourceControl: Info Source control is disabled
+[2015.03.06-17.58.59:141][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.06-17.58.59:169][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.06-17.58.59:213][  0]SourceControl: Info Source control is disabled
+[2015.03.06-17.59.02:972][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.06-17.59.02:972][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.03.06-17.59.04:327][  0]LogEngine: Initializing Engine...
+[2015.03.06-17.59.09:520][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 82))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2015.03.06-17.59.11:573][  0]LogInit: FAudioDevice initialized.
+[2015.03.06-17.59.13:948][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.06-17.59.14:471][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/Yardley Gutierrez/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.06-17.59.14:538][  0]LogInit: Texture streaming: Enabled
+[2015.03.06-17.59.16:356][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.06-17.59.16:356][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.06-17.59.16:356][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.06-17.59.16:356][  0]LogAnalytics: SetUserId a0b74a0f40da1d3eef40c6be10647983|277162545ec74c0fafe928678aa70e70|7bb8c1b2-298a-40e0-8e50-56eb0000bfbd
+[2015.03.06-17.59.16:398][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.06-17.59.16:782][  0]LogInit: Transaction tracking system initialized
+[2015.03.06-17.59.24:956][  0]BlueprintLog: New page: Editor Load
+[2015.03.06-17.59.25:301][  0]LogAssetRegistry: FAssetRegistry took 0.0578 seconds to start up
+[2015.03.06-17.59.25:301][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.06-17.59.32:296][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.06-17.59.33:148][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.06-17.59.39:262][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.06-17.59.39:281][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.06-17.59.39:745][  0]LogConsoleResponse:Display: 
+[2015.03.06-17.59.42:594][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.06-17.59.47:031][  0]SourceControl: Info Source control is disabled
+[2015.03.06-17.59.47:189][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.06-17.59.47:189][  0]LightingResults: New page: Lighting Build
+[2015.03.06-17.59.47:571][  0]MapCheck: New page: Map Check
+[2015.03.06-17.59.47:571][  0]LightingResults: New page: Lighting Build
+[2015.03.06-17.59.48:153][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000050F070D60
+[2015.03.06-17.59.51:522][  0]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-17.59.51:523][  0]LogBlueprint:Warning: [compiler] Warning [0152.64] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-17.59.51:523][  0]LogBlueprint:Warning: [compiler] Warning [0152.64] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-17.59.51:523][  0]LogBlueprint:Warning: [compiler] Warning [0152.64] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 0 ms]
+[2015.03.06-17.59.51:523][  0]LogBlueprint:Warning: [compiler] Warning [0152.64] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 0 ms]
+[2015.03.06-17.59.51:532][  0]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-17.59.51:533][  0]LogBlueprint:Warning: [compiler] Warning [0152.65] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-17.59.51:533][  0]LogBlueprint:Warning: [compiler] Warning [0152.65] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-17.59.53:623][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.06-17.59.53:685][  0]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-17.59.53:748][  0]Cmd: MAP CHECKDEP
+[2015.03.06-17.59.53:778][  0]MapCheck: New page: PuzzleExampleMap - Mar 6, 2015, 5:59:53 AM
+[2015.03.06-17.59.54:039][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 291.383ms to complete.
+[2015.03.06-17.59.54:039][  0]LogFileHelpers: Loading map 'PuzzleExampleMap' took 6.931
+[2015.03.06-17.59.59:179][  0]LogCollectionManager: Loaded 0 collections in 0.002172 seconds
+[2015.03.06-17.59.59:312][  0]LogContentBrowser: Native class hierarchy populated in 0.1202 seconds. Added 1696 classes and 261 folders.
+[2015.03.06-17.59.59:951][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2015.03.06-18.00.07:508][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.06-18.00.08:027][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.06-18.00.08:293][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.06-18.00.08:629][  0]LogLoad: Full Startup: 169.74 seconds (BP compile: 1.42 seconds)
+[2015.03.06-18.00.09:393][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.03.06-18.00.12:479][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.03.06-18.00.15:085][  0]LogRenderer:Warning: Reallocating scene render targets to support 688x424 (Frame:3).
+[2015.03.06-18.00.16:512][  5]LogAssetRegistry: Asset discovery search completed in 51.2692 seconds
+[2015.03.06-18.00.26:294][ 36]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.00.26:294][ 36]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.00.26:333][ 36]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.00.26:334][ 36]LogBlueprint:Warning: [compiler] Warning [0187.45] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 38 ms]
+[2015.03.06-18.00.26:335][ 36]LogBlueprint:Warning: [compiler] Warning [0187.45] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.00.26:394][ 36]LogBlueprint:Warning: [compiler] Warning [0187.51] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 58 ms]
+[2015.03.06-18.00.26:394][ 36]LogBlueprint:Warning: [compiler] Warning [0187.51] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 0 ms]
+[2015.03.06-18.00.26:394][ 36]LogBlueprint:Warning: [compiler] Warning [0187.51] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.00.26:394][ 36]LogBlueprint:Warning: [compiler] Warning [0187.51] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.00.26:398][ 36]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.00.26:424][ 36]LogPlayLevel: PIE:  Blueprint regeneration took 130 ms (1 blueprints)
+[2015.03.06-18.00.26:424][ 36]PIE: New page: SIE session: PuzzleExampleMap (Mar 6, 2015, 6:00:26 AM)
+[2015.03.06-18.00.26:464][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039003s)
+[2015.03.06-18.00.26:465][ 36]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2015.03.06-18.00.26:465][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.040468s)
+[2015.03.06-18.00.26:663][ 36]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.06-18.00.26:692][ 36]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-18.00.26:696][ 36]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.06-12.00.26
+[2015.03.06-18.00.26:697][ 36]LogWorld: Bringing up level for play took: 0.004651
+[2015.03.06-18.00.26:698][ 36]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.06-18.00.26:743][ 36]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.844
+[2015.03.06-18.00.35:080][315]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005176E5DA0
+[2015.03.06-18.03.55:953][373]BlueprintLog: New page: Compile RunnerController
+[2015.03.06-18.03.56:029][373]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.03.56:075][373]BlueprintEditorCompileResults: Info [0397.19] Compile of RunnerController successful! [in 121 ms]
+[2015.03.06-18.03.57:169][430]LogSavePackage: Save=76.151001ms
+[2015.03.06-18.03.57:169][430]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerController717DEC6641D5EC4D301100B6853668C7.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.04.00:672][581]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.04.00:675][581]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.04.00:684][581]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.04.00:685][581]LogBlueprint:Warning: [compiler] Warning [0401.80] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.04.00:685][581]LogBlueprint:Warning: [compiler] Warning [0401.80] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.04.00:716][581]LogBlueprint:Warning: [compiler] Warning [0401.83] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 30 ms]
+[2015.03.06-18.04.00:719][581]LogBlueprint:Warning: [compiler] Warning [0401.83] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.04.00:719][581]LogBlueprint:Warning: [compiler] Warning [0401.83] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.04.00:719][581]LogBlueprint:Warning: [compiler] Warning [0401.83] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.04.00:761][581]LogPlayLevel: PIE:  Blueprint regeneration took 89 ms (1 blueprints)
+[2015.03.06-18.04.00:761][581]PIE: New page: SIE session: PuzzleExampleMap (Mar 6, 2015, 6:04:00 AM)
+[2015.03.06-18.04.00:793][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031420s)
+[2015.03.06-18.04.00:794][581]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2015.03.06-18.04.00:795][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.032927s)
+[2015.03.06-18.04.00:829][581]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.06-18.04.00:830][581]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-18.04.00:835][581]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.06-12.04.00
+[2015.03.06-18.04.00:836][581]LogWorld: Bringing up level for play took: 0.005315
+[2015.03.06-18.04.00:837][581]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.06-18.04.00:841][581]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.942
+[2015.03.06-18.04.09:187][889]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000052EA3D300
+[2015.03.06-18.04.16:663][284]BlueprintLog: New page: Compile RunnerController
+[2015.03.06-18.04.16:802][284]BlueprintEditorCompileResults: Info [0417.92] Compile of RunnerController successful! [in 138 ms]
+[2015.03.06-18.04.17:333][309]LogSavePackage: Save=54.548576ms
+[2015.03.06-18.04.17:333][309]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerController8ECFD2204A228A91518243B7F52693E8.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.04.20:315][436]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.04.20:319][436]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.04.20:330][436]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.04.20:331][436]LogBlueprint:Warning: [compiler] Warning [0421.44] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 9 ms]
+[2015.03.06-18.04.20:331][436]LogBlueprint:Warning: [compiler] Warning [0421.44] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.04.20:362][436]LogBlueprint:Warning: [compiler] Warning [0421.48] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 30 ms]
+[2015.03.06-18.04.20:365][436]LogBlueprint:Warning: [compiler] Warning [0421.48] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.04.20:366][436]LogBlueprint:Warning: [compiler] Warning [0421.48] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.04.20:366][436]LogBlueprint:Warning: [compiler] Warning [0421.48] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.04.20:407][436]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2015.03.06-18.04.20:407][436]PIE: New page: SIE session: PuzzleExampleMap (Mar 6, 2015, 6:04:20 AM)
+[2015.03.06-18.04.20:434][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026592s)
+[2015.03.06-18.04.20:435][436]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2015.03.06-18.04.20:436][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.027806s)
+[2015.03.06-18.04.20:463][436]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.06-18.04.20:465][436]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-18.04.20:469][436]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.06-12.04.20
+[2015.03.06-18.04.20:470][436]LogWorld: Bringing up level for play took: 0.004541
+[2015.03.06-18.04.20:470][436]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.06-18.04.20:475][436]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.576
+[2015.03.06-18.04.27:697][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000524C0B920
+[2015.03.06-18.06.36:301][ 62]LogSavePackage: Save=60.309113ms
+[2015.03.06-18.06.36:301][ 62]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerControllerE35F2DDB4692AC3C463554B6C4BB45F8.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.06.37:554][137]BlueprintLog: New page: Compile RunnerController
+[2015.03.06-18.06.37:742][137]BlueprintEditorCompileResults: Info [0558.86] Compile of RunnerController successful! [in 188 ms]
+[2015.03.06-18.06.39:781][219]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.06.39:784][219]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.06.39:793][219]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.06.39:794][219]LogBlueprint:Warning: [compiler] Warning [0560.91] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.06.39:794][219]LogBlueprint:Warning: [compiler] Warning [0560.91] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.06.39:826][219]LogBlueprint:Warning: [compiler] Warning [0560.94] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 31 ms]
+[2015.03.06-18.06.39:829][219]LogBlueprint:Warning: [compiler] Warning [0560.94] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.06.39:829][219]LogBlueprint:Warning: [compiler] Warning [0560.94] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.06.39:830][219]LogBlueprint:Warning: [compiler] Warning [0560.94] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.06.39:870][219]LogPlayLevel: PIE:  Blueprint regeneration took 89 ms (1 blueprints)
+[2015.03.06-18.06.39:871][219]PIE: New page: SIE session: PuzzleExampleMap (Mar 6, 2015, 6:06:39 AM)
+[2015.03.06-18.06.39:904][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032813s)
+[2015.03.06-18.06.39:906][219]LogPlayLevel: PIE: World Init took: (0.001589s)
+[2015.03.06-18.06.39:906][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.034869s)
+[2015.03.06-18.06.39:941][219]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.06-18.06.39:943][219]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-18.06.39:948][219]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.06-12.06.39
+[2015.03.06-18.06.39:948][219]LogWorld: Bringing up level for play took: 0.004868
+[2015.03.06-18.06.39:949][219]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.06-18.06.39:953][219]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.054
+[2015.03.06-18.06.46:323][447]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000524C0B420
+[2015.03.06-18.06.48:821][542]LogSavePackage: Save=56.386921ms
+[2015.03.06-18.06.48:821][542]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerController0BD421C24B68F3257FF6108EB276FFFD.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.08.59:428][ 97]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.09.03:706][314]LogSavePackage: Save=497.453888ms
+[2015.03.06-18.09.03:706][314]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerCharacterE7D7EFC2425032DC7498939AEA1BE98A.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.06-18.09.04:421][354]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.06-18.09.04:491][354]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.03.06-18.09.04:556][354]BlueprintEditorCompileResults: Info [0705.67] Compile of RunnerCharacter successful! [in 135 ms]
+[2015.03.06-18.09.07:391][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.09.07:477][435]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.09.07:477][435]LogBlueprint:Warning: [compiler] Warning [0708.59] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.09.07:478][435]LogBlueprint:Warning: [compiler] Warning [0708.59] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.09.07:509][435]LogBlueprint:Warning: [compiler] Warning [0708.62] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 30 ms]
+[2015.03.06-18.09.07:512][435]LogBlueprint:Warning: [compiler] Warning [0708.63] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.09.07:512][435]LogBlueprint:Warning: [compiler] Warning [0708.63] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.09.07:512][435]LogBlueprint:Warning: [compiler] Warning [0708.63] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.09.07:728][435]LogSavePackage: Save=260.969727ms
+[2015.03.06-18.09.07:728][435]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/PuzzleExampleMapC45B1F664192FB1FB901AA9322636F20.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.06-18.09.10:440][531]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.09.10:444][531]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.09.10:454][531]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.09.10:455][531]LogBlueprint:Warning: [compiler] Warning [0711.57] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 9 ms]
+[2015.03.06-18.09.10:456][531]LogBlueprint:Warning: [compiler] Warning [0711.57] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.09.10:491][531]LogBlueprint:Warning: [compiler] Warning [0711.60] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 35 ms]
+[2015.03.06-18.09.10:495][531]LogBlueprint:Warning: [compiler] Warning [0711.61] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.09.10:495][531]LogBlueprint:Warning: [compiler] Warning [0711.61] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.09.10:495][531]LogBlueprint:Warning: [compiler] Warning [0711.61] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.09.10:540][531]LogPlayLevel: PIE:  Blueprint regeneration took 100 ms (1 blueprints)
+[2015.03.06-18.09.10:540][531]PIE: New page: SIE session: PuzzleExampleMap (Mar 6, 2015, 6:09:10 AM)
+[2015.03.06-18.09.10:579][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038487s)
+[2015.03.06-18.09.10:580][531]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2015.03.06-18.09.10:581][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.039724s)
+[2015.03.06-18.09.10:613][531]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.06-18.09.10:615][531]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-18.09.10:619][531]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.06-12.09.10
+[2015.03.06-18.09.10:620][531]LogWorld: Bringing up level for play took: 0.004634
+[2015.03.06-18.09.10:621][531]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.06-18.09.10:624][531]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.726
+[2015.03.06-18.09.49:138][802]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005290B14E0
+[2015.03.06-18.09.56:971][183]LogSavePackage: Save=460.654541ms
+[2015.03.06-18.09.56:971][183]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerCharacterB7660AEC4E382D5E4F1FB08082186174.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.06-18.09.57:572][219]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.06-18.09.57:613][219]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.09.57:661][219]BlueprintEditorCompileResults: Info [0758.77] Compile of RunnerCharacter successful! [in 89 ms]
+[2015.03.06-18.10.07:937][615]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.10.07:944][615]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.10.07:970][615]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.10.07:971][615]LogBlueprint:Warning: [compiler] Warning [0769.08] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 25 ms]
+[2015.03.06-18.10.07:971][615]LogBlueprint:Warning: [compiler] Warning [0769.08] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.10.08:003][615]LogBlueprint:Warning: [compiler] Warning [0769.12] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 31 ms]
+[2015.03.06-18.10.08:006][615]LogBlueprint:Warning: [compiler] Warning [0769.12] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.10.08:006][615]LogBlueprint:Warning: [compiler] Warning [0769.12] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.10.08:007][615]LogBlueprint:Warning: [compiler] Warning [0769.12] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.10.08:007][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.10.08:046][615]LogPlayLevel: PIE:  Blueprint regeneration took 108 ms (1 blueprints)
+[2015.03.06-18.10.08:047][615]PIE: New page: SIE session: PuzzleExampleMap (Mar 6, 2015, 6:10:08 AM)
+[2015.03.06-18.10.08:078][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030903s)
+[2015.03.06-18.10.08:079][615]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2015.03.06-18.10.08:079][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.032318s)
+[2015.03.06-18.10.08:110][615]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.06-18.10.08:112][615]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-18.10.08:115][615]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.06-12.10.08
+[2015.03.06-18.10.08:116][615]LogWorld: Bringing up level for play took: 0.004265
+[2015.03.06-18.10.08:117][615]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.06-18.10.08:120][615]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.222
+[2015.03.06-18.10.21:317][ 56]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000053BA39440
+[2015.03.06-18.13.13:603][875]LogSavePackage: Save=54.269417ms
+[2015.03.06-18.13.13:603][875]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerControllerDC8ACD5841F55283C7485A9B20CABC1E.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.13.14:071][903]BlueprintLog: New page: Compile RunnerController
+[2015.03.06-18.13.14:196][903]BlueprintEditorCompileResults: Info [0955.31] Compile of RunnerController successful! [in 124 ms]
+[2015.03.06-18.13.20:844][194]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.13.20:848][194]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.13.20:857][194]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.13.20:858][194]LogBlueprint:Warning: [compiler] Warning [0961.97] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.13.20:859][194]LogBlueprint:Warning: [compiler] Warning [0961.97] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.13.20:890][194]LogBlueprint:Warning: [compiler] Warning [0962.00] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 30 ms]
+[2015.03.06-18.13.20:893][194]LogBlueprint:Warning: [compiler] Warning [0962.01] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.13.20:894][194]LogBlueprint:Warning: [compiler] Warning [0962.01] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.13.20:894][194]LogBlueprint:Warning: [compiler] Warning [0962.01] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.13.20:937][194]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2015.03.06-18.13.20:937][194]PIE: New page: SIE session: PuzzleExampleMap (Mar 6, 2015, 6:13:20 AM)
+[2015.03.06-18.13.20:985][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047107s)
+[2015.03.06-18.13.20:986][194]LogPlayLevel: PIE: World Init took: (0.001147s)
+[2015.03.06-18.13.20:986][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.048643s)
+[2015.03.06-18.13.21:020][194]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.06-18.13.21:022][194]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-18.13.21:026][194]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.06-12.13.21
+[2015.03.06-18.13.21:027][194]LogWorld: Bringing up level for play took: 0.004701
+[2015.03.06-18.13.21:028][194]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.06-18.13.21:031][194]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 1.133
+[2015.03.06-18.13.25:592][367]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005247DE840
+[2015.03.06-18.14.52:201][ 27]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.14.52:201][ 27]LogBlueprint:Warning: [compiler] Warning [1053.31] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.14.52:202][ 27]LogBlueprint:Warning: [compiler] Warning [1053.32] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.14.52:234][ 27]LogBlueprint:Warning: [compiler] Warning [1053.35] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 31 ms]
+[2015.03.06-18.14.52:237][ 27]LogBlueprint:Warning: [compiler] Warning [1053.35] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.14.52:237][ 27]LogBlueprint:Warning: [compiler] Warning [1053.35] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.14.52:238][ 27]LogBlueprint:Warning: [compiler] Warning [1053.35] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.14.52:449][ 27]LogSavePackage: Save=258.564850ms
+[2015.03.06-18.14.52:449][ 27]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/PuzzleExampleMap8654A6E3448DBD5D0A0E0B929DC5FDE1.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.06-18.14.53:815][ 67]LogSavePackage: Save=55.512905ms
+[2015.03.06-18.14.53:815][ 67]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerControllerCAC773FC4BC245384E719F9839039894.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.15.31:219][199]LogSavePackage: Save=50.899796ms
+[2015.03.06-18.15.31:219][199]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerController406749014DB14FA1E56743B2E3137B92.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.15.31:821][235]BlueprintLog: New page: Compile RunnerController
+[2015.03.06-18.15.31:957][235]BlueprintEditorCompileResults: Info [1093.07] Compile of RunnerController successful! [in 135 ms]
+[2015.03.06-18.16.42:640][431]LogSavePackage: Save=58.965862ms
+[2015.03.06-18.16.42:640][431]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerController59306BF0483863C603E2878CF5564F05.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.21.40:312][ 19]LogSavePackage: Save=58.247849ms
+[2015.03.06-18.21.40:312][ 19]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerControllerC771FCA540DA3403F1920E8BF21F117E.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.21.40:865][ 52]BlueprintLog: New page: Compile RunnerController
+[2015.03.06-18.21.40:989][ 52]BlueprintEditorCompileResults: Info [1462.10] Compile of RunnerController successful! [in 123 ms]
+[2015.03.06-18.21.44:241][203]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.21.44:246][203]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.21.44:273][203]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.21.44:274][203]LogBlueprint:Warning: [compiler] Warning [1465.39] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 26 ms]
+[2015.03.06-18.21.44:275][203]LogBlueprint:Warning: [compiler] Warning [1465.39] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.21.44:306][203]LogBlueprint:Warning: [compiler] Warning [1465.42] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 30 ms]
+[2015.03.06-18.21.44:309][203]LogBlueprint:Warning: [compiler] Warning [1465.42] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.21.44:310][203]LogBlueprint:Warning: [compiler] Warning [1465.42] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.21.44:310][203]LogBlueprint:Warning: [compiler] Warning [1465.42] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.21.44:355][203]LogPlayLevel: PIE:  Blueprint regeneration took 114 ms (1 blueprints)
+[2015.03.06-18.21.44:355][203]PIE: New page: SIE session: PuzzleExampleMap (Mar 6, 2015, 6:21:44 AM)
+[2015.03.06-18.21.44:394][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038040s)
+[2015.03.06-18.21.44:395][203]LogPlayLevel: PIE: World Init took: (0.001491s)
+[2015.03.06-18.21.44:396][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.040008s)
+[2015.03.06-18.21.44:432][203]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.06-18.21.44:433][203]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-18.21.44:438][203]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.06-12.21.44
+[2015.03.06-18.21.44:439][203]LogWorld: Bringing up level for play took: 0.004623
+[2015.03.06-18.21.44:439][203]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.06-18.21.44:443][203]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.544
+[2015.03.06-18.21.54:430][578]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000548AB3060
+[2015.03.06-18.21.55:749][604]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.21.55:750][604]LogBlueprint:Warning: [compiler] Warning [1476.86] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 9 ms]
+[2015.03.06-18.21.55:751][604]LogBlueprint:Warning: [compiler] Warning [1476.86] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.21.55:782][604]LogBlueprint:Warning: [compiler] Warning [1476.90] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 31 ms]
+[2015.03.06-18.21.55:785][604]LogBlueprint:Warning: [compiler] Warning [1476.90] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.21.55:786][604]LogBlueprint:Warning: [compiler] Warning [1476.90] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.21.55:786][604]LogBlueprint:Warning: [compiler] Warning [1476.90] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.21.55:955][604]LogSavePackage: Save=216.172028ms
+[2015.03.06-18.21.55:955][604]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/PuzzleExampleMapBECFBFE04EA18E32F547AFB40F56F824.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.06-18.22.54:925][ 10]LogSavePackage: Save=55.897984ms
+[2015.03.06-18.22.54:925][ 10]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerControllerAF494F244D80CC71528888A30E00B1B4.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.22.55:344][ 35]BlueprintLog: New page: Compile RunnerController
+[2015.03.06-18.22.55:469][ 35]BlueprintEditorCompileResults: Info [1536.58] Compile of RunnerController successful! [in 123 ms]
+[2015.03.06-18.22.57:854][139]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.22.57:860][139]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.22.57:886][139]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.22.57:887][139]LogBlueprint:Warning: [compiler] Warning [1539.00] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 25 ms]
+[2015.03.06-18.22.57:888][139]LogBlueprint:Warning: [compiler] Warning [1539.00] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.22.57:919][139]LogBlueprint:Warning: [compiler] Warning [1539.03] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 31 ms]
+[2015.03.06-18.22.57:923][139]LogBlueprint:Warning: [compiler] Warning [1539.04] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.22.57:923][139]LogBlueprint:Warning: [compiler] Warning [1539.04] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.22.57:923][139]LogBlueprint:Warning: [compiler] Warning [1539.04] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.22.57:965][139]LogPlayLevel: PIE:  Blueprint regeneration took 111 ms (1 blueprints)
+[2015.03.06-18.22.57:965][139]PIE: New page: SIE session: PuzzleExampleMap (Mar 6, 2015, 6:22:57 AM)
+[2015.03.06-18.22.58:000][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034584s)
+[2015.03.06-18.22.58:002][139]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2015.03.06-18.22.58:002][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.036122s)
+[2015.03.06-18.22.58:031][139]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.06-18.22.58:033][139]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-18.22.58:037][139]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.06-12.22.58
+[2015.03.06-18.22.58:038][139]LogWorld: Bringing up level for play took: 0.004770
+[2015.03.06-18.22.58:039][139]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.06-18.22.58:042][139]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.144
+[2015.03.06-18.23.05:531][410]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000524C08EA0
+[2015.03.06-18.25.15:837][703]BlueprintLog: New page: Compile RunnerController
+[2015.03.06-18.25.15:957][703]BlueprintEditorCompileResults: Info [1677.07] Compile of RunnerController successful! [in 119 ms]
+[2015.03.06-18.25.16:593][734]LogSavePackage: Save=52.150265ms
+[2015.03.06-18.25.16:593][734]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerControllerE0E9B82243BEC8505DA249ADD492A9AC.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.28.07:225][379]LogSavePackage: Save=469.951355ms
+[2015.03.06-18.28.07:225][379]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerCharacterFA4CC59643CE19315B2C3A88FF3B13D0.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.06-18.28.08:041][428]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.06-18.28.08:103][428]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.28.08:151][428]BlueprintEditorCompileResults: Info [1849.27] Compile of RunnerCharacter successful! [in 110 ms]
+[2015.03.06-18.28.10:739][513]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.28.10:805][513]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.28.10:805][513]LogBlueprint:Warning: [compiler] Warning [1851.92] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.28.10:806][513]LogBlueprint:Warning: [compiler] Warning [1851.92] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.28.10:837][513]LogBlueprint:Warning: [compiler] Warning [1851.95] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 30 ms]
+[2015.03.06-18.28.10:840][513]LogBlueprint:Warning: [compiler] Warning [1851.95] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.28.10:840][513]LogBlueprint:Warning: [compiler] Warning [1851.95] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.28.10:840][513]LogBlueprint:Warning: [compiler] Warning [1851.95] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.28.11:032][513]LogSavePackage: Save=237.225174ms
+[2015.03.06-18.28.11:032][513]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/PuzzleExampleMap9D15B06B42F8A1A8DA7000BD50E18BB7.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.06-18.28.12:988][553]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.28.12:993][553]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.28.13:002][553]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.28.13:003][553]LogBlueprint:Warning: [compiler] Warning [1854.12] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.28.13:004][553]LogBlueprint:Warning: [compiler] Warning [1854.12] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.28.13:035][553]LogBlueprint:Warning: [compiler] Warning [1854.15] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 31 ms]
+[2015.03.06-18.28.13:039][553]LogBlueprint:Warning: [compiler] Warning [1854.15] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.28.13:039][553]LogBlueprint:Warning: [compiler] Warning [1854.15] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.28.13:039][553]LogBlueprint:Warning: [compiler] Warning [1854.15] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.28.13:081][553]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2015.03.06-18.28.13:081][553]PIE: New page: SIE session: PuzzleExampleMap (Mar 6, 2015, 6:28:13 AM)
+[2015.03.06-18.28.13:113][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032187s)
+[2015.03.06-18.28.13:115][553]LogPlayLevel: PIE: World Init took: (0.001325s)
+[2015.03.06-18.28.13:115][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.033946s)
+[2015.03.06-18.28.13:149][553]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.06-18.28.13:151][553]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-18.28.13:155][553]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.06-12.28.13
+[2015.03.06-18.28.13:156][553]LogWorld: Bringing up level for play took: 0.004558
+[2015.03.06-18.28.13:157][553]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.06-18.28.13:221][553]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.678
+[2015.03.06-18.28.21:383][846]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005407EA200
+[2015.03.06-18.28.36:239][673]LogSavePackage: Save=42.883816ms
+[2015.03.06-18.28.36:239][673]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerControllerCC2F3B50462D1F52B8AC369F2404843A.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.28.36:608][695]BlueprintLog: New page: Compile RunnerController
+[2015.03.06-18.28.36:719][695]BlueprintEditorCompileResults: Info [1877.83] Compile of RunnerController successful! [in 111 ms]
+[2015.03.06-18.29.13:544][786]LogSavePackage: Save=464.538116ms
+[2015.03.06-18.29.13:544][786]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerCharacterE25AA3AF4616C01DC18C6EB5EC8B46B7.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.06-18.29.13:960][811]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.06-18.29.14:021][811]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.29.14:070][811]BlueprintEditorCompileResults: Info [1915.18] Compile of RunnerCharacter successful! [in 109 ms]
+[2015.03.06-18.29.16:734][889]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.29.16:790][889]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.29.16:791][889]LogBlueprint:Warning: [compiler] Warning [1917.90] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.29.16:791][889]LogBlueprint:Warning: [compiler] Warning [1917.91] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.29.16:822][889]LogBlueprint:Warning: [compiler] Warning [1917.94] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 30 ms]
+[2015.03.06-18.29.16:826][889]LogBlueprint:Warning: [compiler] Warning [1917.94] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.29.16:826][889]LogBlueprint:Warning: [compiler] Warning [1917.94] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.29.16:826][889]LogBlueprint:Warning: [compiler] Warning [1917.94] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.29.17:028][889]LogSavePackage: Save=247.348801ms
+[2015.03.06-18.29.17:028][889]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/PuzzleExampleMapC2884D2C424E3352E86805B16AE00788.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.06-18.29.18:066][912]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.29.18:072][912]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.29.18:098][912]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.29.18:099][912]LogBlueprint:Warning: [compiler] Warning [1919.21] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 25 ms]
+[2015.03.06-18.29.18:100][912]LogBlueprint:Warning: [compiler] Warning [1919.21] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.29.18:131][912]LogBlueprint:Warning: [compiler] Warning [1919.24] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 30 ms]
+[2015.03.06-18.29.18:134][912]LogBlueprint:Warning: [compiler] Warning [1919.25] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.29.18:134][912]LogBlueprint:Warning: [compiler] Warning [1919.25] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.29.18:134][912]LogBlueprint:Warning: [compiler] Warning [1919.25] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.29.18:176][912]LogPlayLevel: PIE:  Blueprint regeneration took 110 ms (1 blueprints)
+[2015.03.06-18.29.18:177][912]PIE: New page: SIE session: PuzzleExampleMap (Mar 6, 2015, 6:29:18 AM)
+[2015.03.06-18.29.18:212][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035238s)
+[2015.03.06-18.29.18:213][912]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2015.03.06-18.29.18:214][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.036500s)
+[2015.03.06-18.29.18:247][912]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.06-18.29.18:249][912]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-18.29.18:253][912]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.06-12.29.18
+[2015.03.06-18.29.18:254][912]LogWorld: Bringing up level for play took: 0.004676
+[2015.03.06-18.29.18:255][912]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.06-18.29.18:258][912]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.36
+[2015.03.06-18.29.30:123][307]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000055874C220
+[2015.03.06-18.29.30:804][322]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.29.30:810][322]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.29.30:836][322]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.29.30:837][322]LogBlueprint:Warning: [compiler] Warning [1931.95] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 24 ms]
+[2015.03.06-18.29.30:838][322]LogBlueprint:Warning: [compiler] Warning [1931.95] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.29.30:869][322]LogBlueprint:Warning: [compiler] Warning [1931.98] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 31 ms]
+[2015.03.06-18.29.30:872][322]LogBlueprint:Warning: [compiler] Warning [1931.99] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.29.30:872][322]LogBlueprint:Warning: [compiler] Warning [1931.99] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.29.30:872][322]LogBlueprint:Warning: [compiler] Warning [1931.99] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.29.30:915][322]LogPlayLevel: PIE:  Blueprint regeneration took 111 ms (1 blueprints)
+[2015.03.06-18.29.30:915][322]PIE: New page: SIE session: PuzzleExampleMap (Mar 6, 2015, 6:29:30 AM)
+[2015.03.06-18.29.30:947][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031869s)
+[2015.03.06-18.29.30:949][322]LogPlayLevel: PIE: World Init took: (0.001128s)
+[2015.03.06-18.29.30:949][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.033367s)
+[2015.03.06-18.29.30:977][322]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.06-18.29.30:979][322]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-18.29.30:983][322]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.06-12.29.30
+[2015.03.06-18.29.30:984][322]LogWorld: Bringing up level for play took: 0.004455
+[2015.03.06-18.29.30:984][322]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.06-18.29.30:988][322]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 1.089
+[2015.03.06-18.29.38:151][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000557B127A0
+[2015.03.06-18.29.41:271][681]LogSavePackage: Save=41.519218ms
+[2015.03.06-18.29.41:271][681]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerController9C71819B44E86F58D9C67CACD34E58F4.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.30.06:241][ 93]LogSavePackage: Save=468.743988ms
+[2015.03.06-18.30.06:241][ 93]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerCharacterD78C5F8B4DA66A7ECECEC39B9D7D71FC.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.06-18.30.06:693][120]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.06-18.30.06:755][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.30.06:804][120]BlueprintEditorCompileResults: Info [1967.92] Compile of RunnerCharacter successful! [in 110 ms]
+[2015.03.06-18.30.09:806][216]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.30.09:864][216]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.30.09:865][216]LogBlueprint:Warning: [compiler] Warning [1970.98] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.30.09:865][216]LogBlueprint:Warning: [compiler] Warning [1970.98] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.30.09:897][216]LogBlueprint:Warning: [compiler] Warning [1971.01] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 30 ms]
+[2015.03.06-18.30.09:900][216]LogBlueprint:Warning: [compiler] Warning [1971.01] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.30.09:900][216]LogBlueprint:Warning: [compiler] Warning [1971.01] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.30.09:900][216]LogBlueprint:Warning: [compiler] Warning [1971.01] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.30.10:067][216]LogSavePackage: Save=212.850037ms
+[2015.03.06-18.30.10:067][216]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/PuzzleExampleMapA2E81A2D4CE48D15407BFC804D4335EC.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.06-18.30.11:460][246]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.30.11:465][246]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.30.11:474][246]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.30.11:475][246]LogBlueprint:Warning: [compiler] Warning [1972.59] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.30.11:476][246]LogBlueprint:Warning: [compiler] Warning [1972.59] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.30.11:507][246]LogBlueprint:Warning: [compiler] Warning [1972.62] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 31 ms]
+[2015.03.06-18.30.11:511][246]LogBlueprint:Warning: [compiler] Warning [1972.62] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.30.11:511][246]LogBlueprint:Warning: [compiler] Warning [1972.62] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.30.11:511][246]LogBlueprint:Warning: [compiler] Warning [1972.62] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.30.11:553][246]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2015.03.06-18.30.11:553][246]PIE: New page: SIE session: PuzzleExampleMap (Mar 6, 2015, 6:30:11 AM)
+[2015.03.06-18.30.11:584][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030219s)
+[2015.03.06-18.30.11:585][246]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2015.03.06-18.30.11:585][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.031559s)
+[2015.03.06-18.30.11:617][246]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.06-18.30.11:619][246]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-18.30.11:623][246]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.06-12.30.11
+[2015.03.06-18.30.11:624][246]LogWorld: Bringing up level for play took: 0.004458
+[2015.03.06-18.30.11:624][246]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.06-18.30.11:663][246]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.235
+[2015.03.06-18.31.16:861][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000055874C540
+[2015.03.06-18.31.18:104][236]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.31.18:105][236]LogBlueprint:Warning: [compiler] Warning [2039.22] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.31.18:105][236]LogBlueprint:Warning: [compiler] Warning [2039.22] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.31.18:136][236]LogBlueprint:Warning: [compiler] Warning [2039.25] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 30 ms]
+[2015.03.06-18.31.18:139][236]LogBlueprint:Warning: [compiler] Warning [2039.25] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.31.18:139][236]LogBlueprint:Warning: [compiler] Warning [2039.25] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.31.18:139][236]LogBlueprint:Warning: [compiler] Warning [2039.25] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.31.18:309][236]LogSavePackage: Save=214.335327ms
+[2015.03.06-18.31.18:309][236]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/PuzzleExampleMapEABE47134910F68BB5737E98F8AA0B1B.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.06-18.31.45:417][687]LogSavePackage: Save=471.223175ms
+[2015.03.06-18.31.45:417][687]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerCharacter8B2EA76E4CEF9A8FF5D5C3A044FE0AD2.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.06-18.31.46:398][746]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.06-18.31.46:462][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.31.46:510][746]BlueprintEditorCompileResults: Info [2067.62] Compile of RunnerCharacter successful! [in 111 ms]
+[2015.03.06-18.31.48:385][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.31.48:441][798]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.31.48:442][798]LogBlueprint:Warning: [compiler] Warning [2069.56] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.31.48:442][798]LogBlueprint:Warning: [compiler] Warning [2069.56] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.31.48:473][798]LogBlueprint:Warning: [compiler] Warning [2069.59] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 30 ms]
+[2015.03.06-18.31.48:477][798]LogBlueprint:Warning: [compiler] Warning [2069.59] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.31.48:477][798]LogBlueprint:Warning: [compiler] Warning [2069.59] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.31.48:477][798]LogBlueprint:Warning: [compiler] Warning [2069.59] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.31.48:677][798]LogSavePackage: Save=245.487473ms
+[2015.03.06-18.31.48:677][798]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/PuzzleExampleMapBD2B1F684F3CA78C012A9087B4E9ACF4.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.06-18.31.49:540][817]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.31.49:546][817]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.31.49:572][817]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.31.49:573][817]LogBlueprint:Warning: [compiler] Warning [2070.69] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 25 ms]
+[2015.03.06-18.31.49:574][817]LogBlueprint:Warning: [compiler] Warning [2070.69] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.31.49:605][817]LogBlueprint:Warning: [compiler] Warning [2070.72] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 30 ms]
+[2015.03.06-18.31.49:609][817]LogBlueprint:Warning: [compiler] Warning [2070.72] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.31.49:609][817]LogBlueprint:Warning: [compiler] Warning [2070.72] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.31.49:609][817]LogBlueprint:Warning: [compiler] Warning [2070.72] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.31.49:651][817]LogPlayLevel: PIE:  Blueprint regeneration took 111 ms (1 blueprints)
+[2015.03.06-18.31.49:651][817]PIE: New page: SIE session: PuzzleExampleMap (Mar 6, 2015, 6:31:49 AM)
+[2015.03.06-18.31.49:678][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026157s)
+[2015.03.06-18.31.49:679][817]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2015.03.06-18.31.49:679][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.027397s)
+[2015.03.06-18.31.49:709][817]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.06-18.31.49:711][817]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-18.31.49:715][817]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.06-12.31.49
+[2015.03.06-18.31.49:716][817]LogWorld: Bringing up level for play took: 0.004561
+[2015.03.06-18.31.49:716][817]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.06-18.31.49:720][817]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.179
+[2015.03.06-18.31.58:642][108]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000052905E7A0
+[2015.03.06-18.31.59:991][135]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.31.59:992][135]LogBlueprint:Warning: [compiler] Warning [2081.11] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.31.59:992][135]LogBlueprint:Warning: [compiler] Warning [2081.11] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.32.00:023][135]LogBlueprint:Warning: [compiler] Warning [2081.14] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 30 ms]
+[2015.03.06-18.32.00:026][135]LogBlueprint:Warning: [compiler] Warning [2081.14] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.32.00:027][135]LogBlueprint:Warning: [compiler] Warning [2081.14] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.32.00:027][135]LogBlueprint:Warning: [compiler] Warning [2081.14] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.32.00:197][135]LogSavePackage: Save=214.814423ms
+[2015.03.06-18.32.00:197][135]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/PuzzleExampleMapEBCD31BF46336CBA08B71FA324EC6D74.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.06-18.32.06:847][465]LogSavePackage: Save=468.115479ms
+[2015.03.06-18.32.06:847][465]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerCharacter9A92395D47C366DBF3BEF59DB7FB72F9.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.06-18.32.07:247][489]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.06-18.32.07:309][489]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.32.07:358][489]BlueprintEditorCompileResults: Info [2088.47] Compile of RunnerCharacter successful! [in 111 ms]
+[2015.03.06-18.32.42:020][535]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.06-18.32.42:030][535]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.06-18.32.42:030][535]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.06-18.32.42:030][535]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.06-18.32.42:030][535]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.06-18.32.42:030][535]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.06-18.32.42:062][535]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputAxisEvent /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_InputAxisEvent_77 or K2Node_InputAxisEvent /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_InputAxisEvent_77
+[2015.03.06-18.32.42:062][535]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_InputAxisEvent_77.EdGraphPin_223) from referencer (EdGraphPin /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_CallFunction_2109.EdGraphPin_178).  Import failed...
+[2015.03.06-18.32.42:062][535]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAxisEvent_77.EdGraphPin_223''
+[2015.03.06-18.32.42:062][535]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputAction /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_InputAction_31 or K2Node_InputAction /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_InputAction_31
+[2015.03.06-18.32.42:062][535]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_InputAction_31.EdGraphPin_210) from referencer (EdGraphPin /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_CallFunction_2109.EdGraphPin_178).  Import failed...
+[2015.03.06-18.32.42:062][535]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAction_31.EdGraphPin_210''
+[2015.03.06-18.32.42:063][535]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputAxisEvent /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_InputAxisEvent_77 or K2Node_InputAxisEvent /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_InputAxisEvent_77
+[2015.03.06-18.32.42:063][535]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_InputAxisEvent_77.EdGraphPin_224) from referencer (EdGraphPin /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_CallFunction_2109.EdGraphPin_181).  Import failed...
+[2015.03.06-18.32.42:063][535]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAxisEvent_77.EdGraphPin_224''
+[2015.03.06-18.32.42:066][535]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_CallFunction_2117 or K2Node_CallFunction /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_CallFunction_2117
+[2015.03.06-18.32.42:066][535]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_CallFunction_2117.EdGraphPin_233) from referencer (EdGraphPin /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_InputAction_32.EdGraphPin_216).  Import failed...
+[2015.03.06-18.32.42:066][535]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2117.EdGraphPin_233''
+[2015.03.06-18.32.42:070][535]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputAxisEvent /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_InputAxisEvent_79 or K2Node_InputAxisEvent /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_InputAxisEvent_79
+[2015.03.06-18.32.42:070][535]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_InputAxisEvent_79.EdGraphPin_246) from referencer (EdGraphPin /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_CallFunction_2117.EdGraphPin_233).  Import failed...
+[2015.03.06-18.32.42:070][535]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAxisEvent_79.EdGraphPin_246''
+[2015.03.06-18.32.42:071][535]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputAxisEvent /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_InputAxisEvent_79 or K2Node_InputAxisEvent /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_InputAxisEvent_79
+[2015.03.06-18.32.42:071][535]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_InputAxisEvent_79.EdGraphPin_247) from referencer (EdGraphPin /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_CallFunction_2117.EdGraphPin_236).  Import failed...
+[2015.03.06-18.32.42:071][535]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAxisEvent_79.EdGraphPin_247''
+[2015.03.06-18.32.50:191][ 13]LogEditorTransaction: Undo Delete current selection
+[2015.03.06-18.33.22:462][862]LogEditorTransaction: Undo Create Pin Link
+[2015.03.06-18.33.22:849][875]LogEditorTransaction: Undo Create Pin Link
+[2015.03.06-18.33.23:743][921]LogEditorTransaction: Undo Create Pin Link
+[2015.03.06-18.33.24:243][947]LogEditorTransaction: Undo Create Pin Link
+[2015.03.06-18.33.32:198][416]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.06-18.33.32:359][416]BlueprintEditorCompileResults: Info [2173.47] Compile of RunnerCharacter successful! [in 160 ms]
+[2015.03.06-18.33.42:707][ 22]LogSavePackage: Save=29.409037ms
+[2015.03.06-18.33.42:707][ 22]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerController670B2CE144C79CF2AF444ABDA4C687BF.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.33.43:090][ 45]BlueprintLog: New page: Compile RunnerController
+[2015.03.06-18.33.43:185][ 45]BlueprintEditorCompileResults: Info [2184.30] Compile of RunnerController successful! [in 95 ms]
+[2015.03.06-18.34.51:769][910]LogEditorTransaction: Undo Create Pin Link
+[2015.03.06-18.34.52:061][920]LogEditorTransaction: Undo Create Pin Link
+[2015.03.06-18.34.52:296][924]LogEditorTransaction: Undo Create Pin Link
+[2015.03.06-18.34.52:788][949]LogEditorTransaction: Undo Move Node
+[2015.03.06-18.34.53:308][976]LogEditorTransaction: Undo Create Pin Link
+[2015.03.06-18.34.58:463][243]LogSavePackage: Save=491.537781ms
+[2015.03.06-18.34.58:463][243]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerCharacter94AFBEBD4384986553A8AF8E9915DCA3.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.06-18.34.58:882][268]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.06-18.34.58:967][268]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.34.59:018][268]BlueprintEditorCompileResults: Info [2260.13] Compile of RunnerCharacter successful! [in 136 ms]
+[2015.03.06-18.35.00:553][353]LogSavePackage: Save=26.862528ms
+[2015.03.06-18.35.00:553][353]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerControllerEFFEE02143CAFCD3147D7BAF342524EA.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.35.01:535][412]BlueprintLog: New page: Compile RunnerController
+[2015.03.06-18.35.01:628][412]BlueprintEditorCompileResults: Info [2262.74] Compile of RunnerController successful! [in 92 ms]
+[2015.03.06-18.35.02:503][459]LogSavePackage: Save=26.943401ms
+[2015.03.06-18.35.02:503][459]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerController74E916264B391255B7D19B816AFC23DF.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.35.06:178][493]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.03.06-18.35.10:086][575]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.35.10:154][575]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.35.10:155][575]LogBlueprint:Warning: [compiler] Warning [2271.27] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.35.10:155][575]LogBlueprint:Warning: [compiler] Warning [2271.27] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.35.10:187][575]LogBlueprint:Warning: [compiler] Warning [2271.30] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 31 ms]
+[2015.03.06-18.35.10:190][575]LogBlueprint:Warning: [compiler] Warning [2271.30] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.35.10:190][575]LogBlueprint:Warning: [compiler] Warning [2271.30] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.35.10:190][575]LogBlueprint:Warning: [compiler] Warning [2271.30] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.35.10:358][575]LogSavePackage: Save=214.843155ms
+[2015.03.06-18.35.10:358][575]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/PuzzleExampleMap6781E12C43693463116527A459FDCDCA.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.06-18.35.11:439][598]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.35.11:442][598]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.35.11:451][598]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.35.11:452][598]LogBlueprint:Warning: [compiler] Warning [2272.57] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.35.11:453][598]LogBlueprint:Warning: [compiler] Warning [2272.57] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.35.11:484][598]LogBlueprint:Warning: [compiler] Warning [2272.60] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 30 ms]
+[2015.03.06-18.35.11:487][598]LogBlueprint:Warning: [compiler] Warning [2272.60] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.35.11:487][598]LogBlueprint:Warning: [compiler] Warning [2272.60] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.35.11:488][598]LogBlueprint:Warning: [compiler] Warning [2272.60] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.35.11:529][598]LogPlayLevel: PIE:  Blueprint regeneration took 90 ms (1 blueprints)
+[2015.03.06-18.35.11:529][598]PIE: New page: SIE session: PuzzleExampleMap (Mar 6, 2015, 6:35:11 AM)
+[2015.03.06-18.35.11:563][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033325s)
+[2015.03.06-18.35.11:569][598]LogPlayLevel: PIE: World Init took: (0.005681s)
+[2015.03.06-18.35.11:569][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.039326s)
+[2015.03.06-18.35.11:603][598]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.06-18.35.11:605][598]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-18.35.11:609][598]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.06-12.35.11
+[2015.03.06-18.35.11:610][598]LogWorld: Bringing up level for play took: 0.004659
+[2015.03.06-18.35.11:611][598]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.06-18.35.11:615][598]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.284
+[2015.03.06-18.35.33:305][289]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000052905EC00
+[2015.03.06-18.36.23:755][ 32]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.06-18.36.23:876][ 32]BlueprintEditorCompileResults: Info [2344.99] Compile of RunnerCharacter successful! [in 120 ms]
+[2015.03.06-18.36.24:999][ 63]LogSavePackage: Save=478.382385ms
+[2015.03.06-18.36.24:999][ 63]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerCharacter9B69CCD744D77D24B512CFB8323BF2EE.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.06-18.36.43:668][572]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.06-18.36.43:668][572]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.06-18.36.43:668][572]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.06-18.36.43:668][572]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.06-18.36.43:668][572]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.06-18.36.43:668][572]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.06-18.36.43:670][572]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputAxisEvent /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_InputAxisEvent_77 or K2Node_InputAxisEvent /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_InputAxisEvent_77
+[2015.03.06-18.36.43:670][572]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAxisEvent_77.EdGraphPin_223''
+[2015.03.06-18.36.43:670][572]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputAction /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_InputAction_31 or K2Node_InputAction /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_InputAction_31
+[2015.03.06-18.36.43:670][572]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAction_31.EdGraphPin_210''
+[2015.03.06-18.36.43:671][572]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputAxisEvent /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_InputAxisEvent_77 or K2Node_InputAxisEvent /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_InputAxisEvent_77
+[2015.03.06-18.36.43:671][572]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAxisEvent_77.EdGraphPin_224''
+[2015.03.06-18.36.43:674][572]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2117.EdGraphPin_233''
+[2015.03.06-18.36.43:678][572]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputAxisEvent /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_InputAxisEvent_79 or K2Node_InputAxisEvent /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_InputAxisEvent_79
+[2015.03.06-18.36.43:678][572]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAxisEvent_79.EdGraphPin_246''
+[2015.03.06-18.36.43:679][572]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputAxisEvent /Game/Blueprints/RunnerController.RunnerController:EventGraph.K2Node_InputAxisEvent_79 or K2Node_InputAxisEvent /Game/Blueprints/RunnerCharacter.RunnerCharacter:EventGraph.K2Node_InputAxisEvent_79
+[2015.03.06-18.36.43:679][572]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAxisEvent_79.EdGraphPin_247''
+[2015.03.06-18.36.49:736][928]LogSavePackage: Save=39.521175ms
+[2015.03.06-18.36.49:736][928]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerController8803B0B347CEE19B1DDCB7B9D270D679.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.36.50:153][953]BlueprintLog: New page: Compile RunnerController
+[2015.03.06-18.36.50:214][953]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.36.50:262][953]BlueprintEditorCompileResults: Info [2371.38] Compile of RunnerController successful! [in 108 ms]
+[2015.03.06-18.37.00:322][514]LogSavePackage: Save=486.079803ms
+[2015.03.06-18.37.00:322][514]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerCharacterE920A5BD41202E91AF5ECC94BC94CD4D.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.06-18.37.00:706][537]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.06-18.37.00:780][537]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.37.00:829][537]BlueprintEditorCompileResults: Info [2381.94] Compile of RunnerCharacter successful! [in 122 ms]
+[2015.03.06-18.37.05:952][590]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.37.06:010][590]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.37.06:010][590]LogBlueprint:Warning: [compiler] Warning [2387.12] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.37.06:011][590]LogBlueprint:Warning: [compiler] Warning [2387.12] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.37.06:043][590]LogBlueprint:Warning: [compiler] Warning [2387.16] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 31 ms]
+[2015.03.06-18.37.06:046][590]LogBlueprint:Warning: [compiler] Warning [2387.16] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.37.06:046][590]LogBlueprint:Warning: [compiler] Warning [2387.16] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.37.06:046][590]LogBlueprint:Warning: [compiler] Warning [2387.16] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.37.06:215][590]LogSavePackage: Save=214.960159ms
+[2015.03.06-18.37.06:215][590]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/PuzzleExampleMapA20BFD5A42D9063C5BA6D186100A1C40.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.06-18.37.07:248][610]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.37.07:255][610]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.37.07:279][610]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.37.07:280][610]LogBlueprint:Warning: [compiler] Warning [2388.39] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 22 ms]
+[2015.03.06-18.37.07:281][610]LogBlueprint:Warning: [compiler] Warning [2388.39] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.37.07:314][610]LogBlueprint:Warning: [compiler] Warning [2388.43] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 33 ms]
+[2015.03.06-18.37.07:318][610]LogBlueprint:Warning: [compiler] Warning [2388.43] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 4 ms]
+[2015.03.06-18.37.07:318][610]LogBlueprint:Warning: [compiler] Warning [2388.43] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.37.07:319][610]LogBlueprint:Warning: [compiler] Warning [2388.43] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.37.07:362][610]LogPlayLevel: PIE:  Blueprint regeneration took 114 ms (1 blueprints)
+[2015.03.06-18.37.07:362][610]PIE: New page: SIE session: PuzzleExampleMap (Mar 6, 2015, 6:37:07 AM)
+[2015.03.06-18.37.07:398][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035010s)
+[2015.03.06-18.37.07:399][610]LogPlayLevel: PIE: World Init took: (0.001334s)
+[2015.03.06-18.37.07:400][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.036730s)
+[2015.03.06-18.37.07:433][610]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.06-18.37.07:435][610]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.06-18.37.07:440][610]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.06-12.37.07
+[2015.03.06-18.37.07:440][610]LogWorld: Bringing up level for play took: 0.004529
+[2015.03.06-18.37.07:441][610]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.06-18.37.07:444][610]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.454
+[2015.03.06-18.37.52:847][ 37]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000562EAAA20
+[2015.03.06-18.39.08:941][484]LogSavePackage: Save=481.202728ms
+[2015.03.06-18.39.08:941][484]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerCharacter08F3337C4B38BE2A73FA4DB1A7C4A7FB.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.06-18.39.09:558][521]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.06-18.39.09:632][521]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.39.09:681][521]BlueprintEditorCompileResults: Info [2510.79] Compile of RunnerCharacter successful! [in 123 ms]
+[2015.03.06-18.39.11:285][563]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.03.06-18.39.12:407][600]LogSavePackage: Save=43.423660ms
+[2015.03.06-18.39.12:407][600]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/RunnerController059168434AC3475650255AAAF954F0F7.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.06-18.39.13:789][653]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.06-18.39.13:846][653]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.39.13:847][653]LogBlueprint:Warning: [compiler] Warning [2514.96] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.06-18.39.13:848][653]LogBlueprint:Warning: [compiler] Warning [2514.96] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.39.13:879][653]LogBlueprint:Warning: [compiler] Warning [2514.99] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 30 ms]
+[2015.03.06-18.39.13:882][653]LogBlueprint:Warning: [compiler] Warning [2515.00] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.39.13:882][653]LogBlueprint:Warning: [compiler] Warning [2515.00] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.39.13:883][653]LogBlueprint:Warning: [compiler] Warning [2515.00] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.39.14:051][653]LogSavePackage: Save=214.036469ms
+[2015.03.06-18.39.14:051][653]LogSavePackage: Moving '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Saved/PuzzleExampleMapEFDFBC7A48E19814837410A9FBB09D9D.tmp' to '../../../../../../Users/Yardley Gutierrez/Documents/GitHub/New folder/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.06-18.39.14:811][670]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.06-18.39.14:815][670]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.06-18.39.14:844][670]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.06-18.39.14:845][670]LogBlueprint:Warning: [compiler] Warning [2515.96] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 28 ms]
+[2015.03.06-18.39.14:846][670]LogBlueprint:Warning: [compiler] Warning [2515.96] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.06-18.39.14:877][670]LogBlueprint:Warning: [compiler] Warning [2515.99] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 31 ms]
+[2015.03.06-18.39.14:881][670]LogBlueprint:Warning: [compiler] Warning [2515.99] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.06-18.39.14:881][670]LogBlueprint:Warning: [compiler] Warning [2516.00] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.06-18.39.14:881][670]LogBlueprint:Warning: [compiler] Warning [2516.00] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.06-18.39.14:923][670]LogPlayLevel: PIE:  Blueprint regeneration took 111 ms (1 blueprints)
+[2015.03.06-18.39.14:923][670]P
