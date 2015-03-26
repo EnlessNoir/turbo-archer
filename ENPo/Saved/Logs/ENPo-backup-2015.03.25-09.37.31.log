@@ -1,0 +1,1025 @@
+﻿Log file open, 03/23/15 12:13:24
+LogInit:Display: Running engine for game: ENPo
+LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.23-17.13.24:546][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.23-17.13.24:598][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.23-17.13.24:711][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.23-17.13.24:945][  0]LogInit: Object subsystem initialized
+[2015.03.23-17.13.25:139][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.23-17.13.25:139][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy Martin/Documents/BU/ENPo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.23-17.13.25:139][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.23-17.13.25:139][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy Martin/Documents/BU/ENPo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.23-17.13.25:139][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.23-17.13.25:139][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy Martin/Documents/BU/ENPo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.23-17.13.25:263][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.23-17.13.25:294][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.23-17.13.25:503][  0]LogInit: Computer: JEREMYMARTIN-PC
+[2015.03.23-17.13.25:503][  0]LogInit: User: JeremyMartin
+[2015.03.23-17.13.25:503][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.23-17.13.25:503][  0]LogInit: High frequency timer resolution =2.728193 MHz
+[2015.03.23-17.13.25:503][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.03.23-17.13.25:503][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.23-17.13.25:503][  0]LogMemory: Process Physical Memory: 48.52 MB used, 48.52 MB peak
+[2015.03.23-17.13.25:503][  0]LogMemory: Process Virtual Memory: 28.43 MB used, 28.43 MB peak
+[2015.03.23-17.13.25:503][  0]LogMemory: Physical Memory: 4431.58 MB used, 8097.22 MB total
+[2015.03.23-17.13.25:503][  0]LogMemory: Virtual Memory: 281.31 MB used, 8388608.00 MB total
+[2015.03.23-17.13.25:897][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.03.23-17.13.25:897][  0]LogD3D11RHI: Adapter has 2094MB of dedicated video memory, 0MB of dedicated system memory, and 3792MB of shared system memory, 1 output[s]
+[2015.03.23-17.13.25:897][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.23-17.13.25:903][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.23-17.13.25:917][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.23-17.13.27:383][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.23-17.13.27:525][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.03.23-17.13.27:525][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.03.23-17.13.27:649][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.23-17.13.34:388][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.23-17.13.35:403][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.23-17.13.35:535][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.23-17.13.36:128][  0]LogDerivedDataCache: Loaded boot cache 0.59s 39MB C:/Users/Jeremy Martin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.23-17.13.36:128][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jeremy Martin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.23-17.13.36:128][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.23-17.13.36:128][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.23-17.13.36:290][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.23-17.13.36:325][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeremy Martin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.23-17.13.42:168][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.23-17.13.42:168][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.23-17.13.44:165][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.23-17.13.44:549][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.23-17.13.47:739][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.23-17.13.48:264][  0]SourceControl: Info Source control is disabled
+[2015.03.23-17.13.48:282][  0]SourceControl: Info Source control is disabled
+[2015.03.23-17.13.48:282][  0]SourceControl: Info Source control is disabled
+[2015.03.23-17.13.48:282][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.23-17.13.48:283][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.23-17.13.48:291][  0]SourceControl: Info Source control is disabled
+[2015.03.23-17.13.49:164][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.23-17.13.49:164][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.03.23-17.13.49:618][  0]LogEngine: Initializing Engine...
+[2015.03.23-17.13.51:934][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.03.23-17.13.51:952][  0]LogInit: FAudioDevice initialized.
+[2015.03.23-17.13.52:394][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.23-17.13.52:547][  0]LogDerivedDataCache: Saved boot cache 0.08s 39MB C:/Users/Jeremy Martin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.23-17.13.52:558][  0]LogInit: Texture streaming: Enabled
+[2015.03.23-17.13.52:843][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.23-17.13.52:844][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.23-17.13.52:844][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.23-17.13.52:844][  0]LogAnalytics: SetUserId 4faf2b8f401686a57575ecb438c58793|93efd1466ca449a7a50c61e21231fb4f|d21d11dd-cad7-4eb6-8377-a86052e53efe
+[2015.03.23-17.13.52:865][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.23-17.13.53:172][  0]LogInit: Transaction tracking system initialized
+[2015.03.23-17.13.54:970][  0]BlueprintLog: New page: Editor Load
+[2015.03.23-17.13.55:098][  0]LogAssetRegistry: FAssetRegistry took 0.0150 seconds to start up
+[2015.03.23-17.13.55:100][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.23-17.13.57:575][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.23-17.13.57:957][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.23-17.13.59:177][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.23-17.13.59:177][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.23-17.13.59:224][  0]LogConsoleResponse:Display: 
+[2015.03.23-17.14.00:494][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.23-17.14.01:355][  0]SourceControl: Info Source control is disabled
+[2015.03.23-17.14.01:398][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.23-17.14.01:423][  0]LightingResults: New page: Lighting Build
+[2015.03.23-17.14.01:571][  0]MapCheck: New page: Map Check
+[2015.03.23-17.14.01:571][  0]LightingResults: New page: Lighting Build
+[2015.03.23-17.14.01:738][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000166B6980
+[2015.03.23-17.14.02:490][  0]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.14.02:509][  0]LogBlueprint:Warning: [compiler] Warning [0045.71] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 23 ms]
+[2015.03.23-17.14.02:509][  0]LogBlueprint:Warning: [compiler] Warning [0045.71] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.14.02:509][  0]LogBlueprint:Warning: [compiler] Warning [0045.71] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 0 ms]
+[2015.03.23-17.14.02:509][  0]LogBlueprint:Warning: [compiler] Warning [0045.71] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 0 ms]
+[2015.03.23-17.14.02:515][  0]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.14.02:515][  0]LogBlueprint:Warning: [compiler] Warning [0045.71] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 5 ms]
+[2015.03.23-17.14.02:515][  0]LogBlueprint:Warning: [compiler] Warning [0045.71] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.14.04:225][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.23-17.14.04:295][  0]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.23-17.14.04:336][  0]Cmd: MAP CHECKDEP
+[2015.03.23-17.14.04:348][  0]MapCheck: New page: PuzzleExampleMap - Mar 23, 2015, 7:14:04 AM
+[2015.03.23-17.14.04:440][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 104.417ms to complete.
+[2015.03.23-17.14.04:440][  0]LogFileHelpers: Loading map 'PuzzleExampleMap' took 3.043
+[2015.03.23-17.14.05:569][  0]LogCollectionManager: Loaded 0 collections in 0.001784 seconds
+[2015.03.23-17.14.05:591][  0]LogContentBrowser: Native class hierarchy populated in 0.0208 seconds. Added 1696 classes and 261 folders.
+[2015.03.23-17.14.05:835][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2015.03.23-17.14.07:100][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.23-17.14.07:213][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.23-17.14.07:294][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.23-17.14.07:553][  0]LogLoad: Full Startup: 50.75 seconds (BP compile: 0.39 seconds)
+[2015.03.23-17.14.08:434][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.03.23-17.14.09:281][  0]LogRenderer:Warning: Reallocating scene render targets to support 1032x568 (Frame:3).
+[2015.03.23-17.14.11:195][  5]LogAssetRegistry: Asset discovery search completed in 16.1107 seconds
+[2015.03.23-17.14.52:516][560]LogEditorViewport: Clicking on Actor (LMB): RunnerCharacter_C (RunnerCharacter)
+[2015.03.23-17.14.53:463][566]LogEditorViewport: Clicking on Actor (LMB): RunnerCharacter_C (RunnerCharacter)
+[2015.03.23-17.15.10:994][855]LogEditorViewport: Clicking on Actor (LMB): skyB_C (skyB)
+[2015.03.23-17.15.13:706][913]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.15.13:707][913]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.15.13:707][913]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.15.13:707][913]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.15.13:707][913]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.15.13:707][913]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.15.18:755][341]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.15.18:755][341]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.15.18:756][341]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.15.18:756][341]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.15.18:757][341]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.15.18:757][341]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.15.23:771][865]LogEditorViewport: Clicking on Actor (LMB): RunnerCharacter_C (RunnerCharacter)
+[2015.03.23-17.15.23:877][865]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Cone)
+[2015.03.23-17.15.24:807][879]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Cone)
+[2015.03.23-17.15.24:868][879]LogEditorViewport: Clicking on Actor (double click): RunnerCharacter_C (RunnerCharacter)
+[2015.03.23-17.15.25:874][895]LogEditorViewport: Clicking on Actor (context menu): RunnerCharacter_C (RunnerCharacter)
+[2015.03.23-17.16.51:484][227]LogRenderer:Warning: Reallocating scene render targets to support 1032x872 (Frame:1267).
+[2015.03.23-17.17.17:567][312]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Engine/Engine/Classes/GameFramework'
+[2015.03.23-17.17.21:633][370]LogEditorViewport: Clicking on Actor (LMB): RunnerCharacter_C (RunnerCharacter)
+[2015.03.23-17.17.55:029][442]Cmd: TRANSACTION UNDO
+[2015.03.23-17.17.55:029][442]LogEditorTransaction: Undo Modify Component(s)
+[2015.03.23-17.17.55:073][442]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.23-17.17.55:254][452]LogEditorTransaction: Undo Modify Component(s)
+[2015.03.23-17.17.55:752][481]LogEditorTransaction: Undo Modify Component(s)
+[2015.03.23-17.17.56:318][518]LogEditorTransaction: Undo Modify Component(s)
+[2015.03.23-17.17.56:775][530]LogEditorTransaction: Undo Modify Component(s)
+[2015.03.23-17.19.21:193][ 37]Cmd: MODE ROTGRID=0
+[2015.03.23-17.19.22:129][ 65]Cmd: MODE ROTGRID=1
+[2015.03.23-17.19.48:363][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerCharacter" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset" SILENT=true
+[2015.03.23-17.19.48:939][993]LogSavePackage: Save=446.582764ms
+[2015.03.23-17.19.48:939][993]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerCharacter0DF05AF544DCF0D4FBBFEB891572873A.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.23-17.19.49:285][  7]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.23-17.19.49:370][  7]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.03.23-17.19.49:371][  7]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.03.23-17.19.49:398][  7]BlueprintEditorCompileResults: Info [0392.58] Compile of RunnerCharacter successful! [in 112 ms]
+[2015.03.23-17.19.49:461][  9]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.23-17.19.49:552][  9]BlueprintEditorCompileResults: Info [0392.73] Compile of RunnerCharacter successful! [in 91 ms]
+[2015.03.23-17.19.56:746][203]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.19.56:747][203]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.19.56:747][203]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.19.56:747][203]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.19.56:747][203]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.19.56:747][203]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.19.58:159][329]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.19.58:159][329]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.19.58:159][329]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.19.58:160][329]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.19.58:160][329]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.19.58:160][329]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.20.01:865][673]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.23-17.20.01:867][673]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.23-17.20.01:874][673]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.20.01:875][673]LogBlueprint:Warning: [compiler] Warning [0405.05] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 6 ms]
+[2015.03.23-17.20.01:875][673]LogBlueprint:Warning: [compiler] Warning [0405.06] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.20.01:899][673]LogBlueprint:Warning: [compiler] Warning [0405.08] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 23 ms]
+[2015.03.23-17.20.01:901][673]LogBlueprint:Warning: [compiler] Warning [0405.08] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 2 ms]
+[2015.03.23-17.20.01:901][673]LogBlueprint:Warning: [compiler] Warning [0405.08] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-17.20.01:902][673]LogBlueprint:Warning: [compiler] Warning [0405.08] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-17.20.01:902][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.23-17.20.01:918][673]LogPlayLevel: PIE:  Blueprint regeneration took 53 ms (1 blueprints)
+[2015.03.23-17.20.01:918][673]PIE: New page: SIE session: PuzzleExampleMap (Mar 23, 2015, 7:20:01 AM)
+[2015.03.23-17.20.01:944][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025173s)
+[2015.03.23-17.20.01:954][673]LogPlayLevel: PIE: World Init took: (0.010536s)
+[2015.03.23-17.20.01:955][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.036126s)
+[2015.03.23-17.20.01:992][673]LogSelection:Warning: PIE object was selected: "RunnerCharacter_C /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.RunnerCharacter_C_1"
+[2015.03.23-17.20.02:108][673]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.23-17.20.02:197][673]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.23-17.20.02:203][673]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2015.03.23-12.20.02
+[2015.03.23-17.20.02:206][673]LogWorld: Bringing up level for play took: 0.008200
+[2015.03.23-17.20.02:208][673]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.23-17.20.02:282][673]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2015.03.23-17.20.02:285][673]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.162
+[2015.03.23-17.20.02:427][673]LogSelection:Warning: PIE object was selected: "RunnerCharacter_C /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.RunnerCharacter_C_1"
+[2015.03.23-17.20.17:248][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000246A7560
+[2015.03.23-17.20.57:482][246]LogRenderer:Warning: Reallocating scene render targets to support 1144x896 (Frame:8467).
+[2015.03.23-17.21.33:765][952]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.21.33:766][952]LogBlueprint:Warning: [compiler] Warning [0496.94] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.23-17.21.33:767][952]LogBlueprint:Warning: [compiler] Warning [0496.94] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.21.33:796][952]LogBlueprint:Warning: [compiler] Warning [0496.97] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 29 ms]
+[2015.03.23-17.21.33:799][952]LogBlueprint:Warning: [compiler] Warning [0496.97] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 2 ms]
+[2015.03.23-17.21.33:799][952]LogBlueprint:Warning: [compiler] Warning [0496.97] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-17.21.33:799][952]LogBlueprint:Warning: [compiler] Warning [0496.98] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-17.21.33:865][952]LogSavePackage: Save=108.578827ms
+[2015.03.23-17.21.33:865][952]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/PuzzleExampleMapF6D141E949EB459CCEE105A8B8022A40.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.23-17.24.52:501][922]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.24.52:501][922]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.24.52:502][922]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.24.52:502][922]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.24.52:503][922]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.24.52:503][922]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.24.55:616][951]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.24.55:617][951]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.24.55:617][951]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.24.55:617][951]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.24.55:618][951]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.24.55:618][951]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.25.15:523][144]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.03.23-17.25.44:565][571]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Classes_Engine/Engine/Classes'
+[2015.03.23-17.25.48:461][608]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.25.48:462][608]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.25.48:462][608]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.25.48:462][608]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.25.48:462][608]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.25.48:462][608]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.25.50:800][631]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.25.50:801][631]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.25.50:801][631]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.25.50:803][631]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.25.50:803][631]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.25.50:804][631]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.26.44:794][431]LogEditorTransaction: Undo Delete current selection
+[2015.03.23-17.26.44:835][431]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.23-17.26.45:152][444]LogEditorTransaction: Undo Delete current selection
+[2015.03.23-17.26.59:385][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerCharacter" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset" SILENT=true
+[2015.03.23-17.26.59:802][194]LogSavePackage: Save=401.150146ms
+[2015.03.23-17.26.59:802][194]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerCharacter09D41D074975FF8173181A801BFEEA34.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.23-17.27.01:120][249]BlueprintLog: New page: Compile RunnerController
+[2015.03.23-17.27.01:157][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.03.23-17.27.01:158][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.03.23-17.27.01:178][249]BlueprintEditorCompileResults: Info [0824.34] Compile of RunnerController successful! [in 57 ms]
+[2015.03.23-17.27.02:913][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-17.27.02:958][349]LogSavePackage: Save=14.993074ms
+[2015.03.23-17.27.02:958][349]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerController6D148A1342216F55DEAEFDB56036CD8C.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-17.27.03:451][379]BlueprintLog: New page: Compile RunnerController
+[2015.03.23-17.27.03:528][379]BlueprintEditorCompileResults: Info [0826.69] Compile of RunnerController successful! [in 76 ms]
+[2015.03.23-17.27.03:672][388]BlueprintLog: New page: Compile RunnerController
+[2015.03.23-17.27.03:729][388]BlueprintEditorCompileResults: Info [0826.89] Compile of RunnerController successful! [in 56 ms]
+[2015.03.23-17.27.05:225][442]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.23-17.27.05:375][442]BlueprintEditorCompileResults: Info [0828.53] Compile of RunnerCharacter successful! [in 150 ms]
+[2015.03.23-17.27.05:376][442]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.23-17.27.05:461][442]BlueprintEditorCompileResults: Info [0828.62] Compile of RunnerCharacter successful! [in 85 ms]
+[2015.03.23-17.27.08:011][478]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.23-17.27.08:053][478]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.27.08:054][478]LogBlueprint:Warning: [compiler] Warning [0831.21] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 6 ms]
+[2015.03.23-17.27.08:054][478]LogBlueprint:Warning: [compiler] Warning [0831.21] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.27.08:079][478]LogBlueprint:Warning: [compiler] Warning [0831.24] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 24 ms]
+[2015.03.23-17.27.08:081][478]LogBlueprint:Warning: [compiler] Warning [0831.24] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 2 ms]
+[2015.03.23-17.27.08:081][478]LogBlueprint:Warning: [compiler] Warning [0831.24] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-17.27.08:082][478]LogBlueprint:Warning: [compiler] Warning [0831.24] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-17.27.08:148][478]LogSavePackage: Save=102.340263ms
+[2015.03.23-17.27.08:148][478]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/PuzzleExampleMap760DBB0446A0C700EF1330B838240723.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.23-17.27.14:624][544]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.23-17.27.14:627][544]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.23-17.27.14:636][544]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.27.14:638][544]LogBlueprint:Warning: [compiler] Warning [0837.80] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 9 ms]
+[2015.03.23-17.27.14:639][544]LogBlueprint:Warning: [compiler] Warning [0837.80] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.27.14:675][544]LogBlueprint:Warning: [compiler] Warning [0837.83] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 36 ms]
+[2015.03.23-17.27.14:681][544]LogBlueprint:Warning: [compiler] Warning [0837.84] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 5 ms]
+[2015.03.23-17.27.14:681][544]LogBlueprint:Warning: [compiler] Warning [0837.84] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-17.27.14:681][544]LogBlueprint:Warning: [compiler] Warning [0837.84] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-17.27.14:711][544]LogPlayLevel: PIE:  Blueprint regeneration took 86 ms (1 blueprints)
+[2015.03.23-17.27.14:711][544]PIE: New page: SIE session: PuzzleExampleMap (Mar 23, 2015, 7:27:14 AM)
+[2015.03.23-17.27.14:738][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026087s)
+[2015.03.23-17.27.14:749][544]LogPlayLevel: PIE: World Init took: (0.011232s)
+[2015.03.23-17.27.14:749][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.037562s)
+[2015.03.23-17.27.14:811][544]LogSelection:Warning: PIE object was selected: "RunnerCharacter_C /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.RunnerCharacter_C_1"
+[2015.03.23-17.27.14:864][544]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.23-17.27.14:868][544]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.23-17.27.14:874][544]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.23-12.27.14
+[2015.03.23-17.27.14:875][544]LogWorld: Bringing up level for play took: 0.006119
+[2015.03.23-17.27.14:876][544]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.23-17.27.14:877][544]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2015.03.23-17.27.14:878][544]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.409
+[2015.03.23-17.27.14:930][544]LogSelection:Warning: PIE object was selected: "RunnerCharacter_C /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.RunnerCharacter_C_1"
+[2015.03.23-17.27.30:688][786]LogSelection:Warning: PIE object was selected: "RunnerCharacter_C /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.RunnerCharacter_C_1"
+[2015.03.23-17.27.33:712][868]LogSelection:Warning: PIE object was selected: "Brush /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.FloorGeometry"
+[2015.03.23-17.27.35:683][891]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000041CF6B60
+[2015.03.23-17.27.38:542][926]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.27.38:543][926]LogBlueprint:Warning: [compiler] Warning [0861.70] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 6 ms]
+[2015.03.23-17.27.38:543][926]LogBlueprint:Warning: [compiler] Warning [0861.70] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.27.38:568][926]LogBlueprint:Warning: [compiler] Warning [0861.73] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 24 ms]
+[2015.03.23-17.27.38:570][926]LogBlueprint:Warning: [compiler] Warning [0861.73] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 2 ms]
+[2015.03.23-17.27.38:570][926]LogBlueprint:Warning: [compiler] Warning [0861.73] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-17.27.38:571][926]LogBlueprint:Warning: [compiler] Warning [0861.73] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-17.27.38:641][926]LogSavePackage: Save=105.433891ms
+[2015.03.23-17.27.38:641][926]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/PuzzleExampleMap58092CF34985A13F6A6300BE63121A2C.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.23-17.28.37:974][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-17.28.38:019][354]LogSavePackage: Save=24.161047ms
+[2015.03.23-17.28.38:019][354]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerControllerB5739F4E419A40BC7F1317B66AC3BB41.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-17.28.38:448][380]BlueprintLog: New page: Compile RunnerController
+[2015.03.23-17.28.38:507][380]BlueprintEditorCompileResults: Info [0921.66] Compile of RunnerController successful! [in 58 ms]
+[2015.03.23-17.28.44:175][494]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.23-17.28.44:178][494]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.23-17.28.44:185][494]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.28.44:185][494]LogBlueprint:Warning: [compiler] Warning [0927.34] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 6 ms]
+[2015.03.23-17.28.44:186][494]LogBlueprint:Warning: [compiler] Warning [0927.34] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.28.44:213][494]LogBlueprint:Warning: [compiler] Warning [0927.37] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 27 ms]
+[2015.03.23-17.28.44:216][494]LogBlueprint:Warning: [compiler] Warning [0927.37] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 2 ms]
+[2015.03.23-17.28.44:216][494]LogBlueprint:Warning: [compiler] Warning [0927.37] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-17.28.44:216][494]LogBlueprint:Warning: [compiler] Warning [0927.37] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-17.28.44:234][494]LogPlayLevel: PIE:  Blueprint regeneration took 59 ms (1 blueprints)
+[2015.03.23-17.28.44:234][494]PIE: New page: SIE session: PuzzleExampleMap (Mar 23, 2015, 7:28:44 AM)
+[2015.03.23-17.28.44:271][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036735s)
+[2015.03.23-17.28.44:272][494]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2015.03.23-17.28.44:272][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.037927s)
+[2015.03.23-17.28.44:333][494]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.23-17.28.44:336][494]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.23-17.28.44:338][494]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.23-12.28.44
+[2015.03.23-17.28.44:339][494]LogWorld: Bringing up level for play took: 0.002779
+[2015.03.23-17.28.44:339][494]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.23-17.28.44:340][494]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2015.03.23-17.28.44:341][494]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.132
+[2015.03.23-17.28.46:177][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002364D4E0
+[2015.03.23-17.28.50:090][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-17.28.50:140][650]LogSavePackage: Save=24.586603ms
+[2015.03.23-17.28.50:140][650]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerController4883C6484C6B37B5292A0AA9C8659F95.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-17.28.50:692][683]BlueprintLog: New page: Compile RunnerController
+[2015.03.23-17.28.50:751][683]BlueprintEditorCompileResults: Info [0933.91] Compile of RunnerController successful! [in 58 ms]
+[2015.03.23-17.28.50:979][697]BlueprintLog: New page: Compile RunnerController
+[2015.03.23-17.28.51:039][697]BlueprintEditorCompileResults: Info [0934.19] Compile of RunnerController successful! [in 59 ms]
+[2015.03.23-17.35.34:229][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-17.35.34:265][928]LogSavePackage: Save=19.622879ms
+[2015.03.23-17.35.34:265][928]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerController1C26E116486F34B74FFB08922DD41B01.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-17.37.19:320][507]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2015.03.23-17.37.22:539][640]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2015.03.23-17.37.25:891][821]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2015.03.23-17.37.25:891][821]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.23-17.37.25:891][821]LogMaterial:Warning: 	SceneTexture expressions cannot be used in opaque materials
+[2015.03.23-17.37.48:432][ 76]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.23-17.37.48:643][ 76]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.37.48:643][ 76]LogBlueprint:Warning: [compiler] Warning [1471.77] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 7 ms]
+[2015.03.23-17.37.48:644][ 76]LogBlueprint:Warning: [compiler] Warning [1471.77] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.37.48:669][ 76]LogBlueprint:Warning: [compiler] Warning [1471.80] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 25 ms]
+[2015.03.23-17.37.48:672][ 76]LogBlueprint:Warning: [compiler] Warning [1471.80] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 2 ms]
+[2015.03.23-17.37.48:672][ 76]LogBlueprint:Warning: [compiler] Warning [1471.80] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-17.37.48:672][ 76]LogBlueprint:Warning: [compiler] Warning [1471.80] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-17.37.48:742][ 76]LogSavePackage: Save=119.473221ms
+[2015.03.23-17.37.48:742][ 76]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/PuzzleExampleMap_Auto1CB1294D14AC366E78A366DB8EAE930D0.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto1.umap'
+[2015.03.23-17.37.48:748][ 76]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.316
+[2015.03.23-17.37.48:748][ 76]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.316
+[2015.03.23-17.37.48:787][ 76]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/RunnerCharacter] ([1] browsable assets)...
+[2015.03.23-17.37.48:842][ 76]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/RunnerCharacter.RunnerCharacter]
+[2015.03.23-17.37.48:842][ 76]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/RunnerCharacter]
+[2015.03.23-17.37.49:319][ 76]LogSavePackage: Save=464.158142ms
+[2015.03.23-17.37.49:320][ 76]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerCharacter_Auto130008B8D4127183CD0DE3FAF27923A4A.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/Autosaves/Game/Blueprints/RunnerCharacter_Auto1.uasset'
+[2015.03.23-17.37.49:413][ 76]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/RunnerController] ([1] browsable assets)...
+[2015.03.23-17.37.49:413][ 76]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/RunnerController]
+[2015.03.23-17.37.49:528][ 76]LogSavePackage: Save=82.109291ms
+[2015.03.23-17.37.49:528][ 76]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerController_Auto1A932E7E14C8C62C694B77AB7E931C00B.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/Autosaves/Game/Blueprints/RunnerController_Auto1.uasset'
+[2015.03.23-17.37.49:536][ 76]LogFileHelpers: Auto-saving content packages took 0.787
+[2015.03.23-17.38.17:338][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-17.38.17:381][737]LogSavePackage: Save=23.493206ms
+[2015.03.23-17.38.17:381][737]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerController831DA75A4265698FE16724985523D85C.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-17.38.17:878][767]BlueprintLog: New page: Compile RunnerController
+[2015.03.23-17.38.17:917][767]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.23-17.38.17:939][767]BlueprintEditorCompileResults: Info [1501.06] Compile of RunnerController successful! [in 60 ms]
+[2015.03.23-17.38.19:159][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerCharacter" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset" SILENT=true
+[2015.03.23-17.38.19:191][838]LogSavePackage: Save=22.724566ms
+[2015.03.23-17.38.19:191][838]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerCharacterB993921848BECF4C33923199977B4A42.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.23-17.38.21:168][897]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.38.21:169][897]LogBlueprint:Warning: [compiler] Warning [1504.29] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 6 ms]
+[2015.03.23-17.38.21:169][897]LogBlueprint:Warning: [compiler] Warning [1504.29] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.38.21:194][897]LogBlueprint:Warning: [compiler] Warning [1504.32] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 24 ms]
+[2015.03.23-17.38.21:196][897]LogBlueprint:Warning: [compiler] Warning [1504.32] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 2 ms]
+[2015.03.23-17.38.21:196][897]LogBlueprint:Warning: [compiler] Warning [1504.32] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-17.38.21:196][897]LogBlueprint:Warning: [compiler] Warning [1504.32] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-17.38.21:265][897]LogSavePackage: Save=104.004005ms
+[2015.03.23-17.38.21:265][897]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/PuzzleExampleMap1CEA710340D312D4EDBC05823A41541E.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.23-17.38.30:010][ 62]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.23-17.38.30:014][ 62]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.23-17.38.30:076][ 62]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.38.30:077][ 62]LogBlueprint:Warning: [compiler] Warning [1513.20] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 61 ms]
+[2015.03.23-17.38.30:077][ 62]LogBlueprint:Warning: [compiler] Warning [1513.20] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.38.30:103][ 62]LogBlueprint:Warning: [compiler] Warning [1513.23] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 25 ms]
+[2015.03.23-17.38.30:105][ 62]LogBlueprint:Warning: [compiler] Warning [1513.23] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 2 ms]
+[2015.03.23-17.38.30:105][ 62]LogBlueprint:Warning: [compiler] Warning [1513.23] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-17.38.30:105][ 62]LogBlueprint:Warning: [compiler] Warning [1513.23] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-17.38.30:125][ 62]LogPlayLevel: PIE:  Blueprint regeneration took 114 ms (1 blueprints)
+[2015.03.23-17.38.30:125][ 62]PIE: New page: SIE session: PuzzleExampleMap (Mar 23, 2015, 7:38:30 AM)
+[2015.03.23-17.38.30:154][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027596s)
+[2015.03.23-17.38.30:160][ 62]LogPlayLevel: PIE: World Init took: (0.005627s)
+[2015.03.23-17.38.30:160][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.033451s)
+[2015.03.23-17.38.30:225][ 62]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.23-17.38.30:227][ 62]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.23-17.38.30:230][ 62]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.23-12.38.30
+[2015.03.23-17.38.30:231][ 62]LogWorld: Bringing up level for play took: 0.002856
+[2015.03.23-17.38.30:231][ 62]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.23-17.38.30:232][ 62]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2015.03.23-17.38.30:232][ 62]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.27
+[2015.03.23-17.38.47:277][608]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012453CE0
+[2015.03.23-17.39.26:220][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-17.39.26:305][625]LogSavePackage: Save=46.384548ms
+[2015.03.23-17.39.26:305][625]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerController7A6A3B724A3312B8669B20B889A85CB2.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-17.43.11:910][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-17.43.12:087][573]LogSavePackage: Save=111.102112ms
+[2015.03.23-17.43.12:087][573]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerControllerF0CDC88043D85AA42126D0B810EC1E5F.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-17.43.12:561][596]BlueprintLog: New page: Compile RunnerController
+[2015.03.23-17.43.12:699][596]BlueprintEditorCompileResults: Info [1795.81] Compile of RunnerController successful! [in 137 ms]
+[2015.03.23-17.43.16:567][700]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.23-17.43.16:586][700]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.23-17.43.16:632][700]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.43.16:634][700]LogBlueprint:Warning: [compiler] Warning [1799.74] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 43 ms]
+[2015.03.23-17.43.16:636][700]LogBlueprint:Warning: [compiler] Warning [1799.75] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.43.16:725][700]LogBlueprint:Warning: [compiler] Warning [1799.84] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 89 ms]
+[2015.03.23-17.43.16:735][700]LogBlueprint:Warning: [compiler] Warning [1799.85] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 9 ms]
+[2015.03.23-17.43.16:736][700]LogBlueprint:Warning: [compiler] Warning [1799.85] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-17.43.16:736][700]LogBlueprint:Warning: [compiler] Warning [1799.85] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-17.43.16:808][700]LogPlayLevel: PIE:  Blueprint regeneration took 241 ms (1 blueprints)
+[2015.03.23-17.43.16:808][700]PIE: New page: SIE session: PuzzleExampleMap (Mar 23, 2015, 7:43:16 AM)
+[2015.03.23-17.43.16:894][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083953s)
+[2015.03.23-17.43.16:916][700]LogPlayLevel: PIE: World Init took: (0.022302s)
+[2015.03.23-17.43.16:917][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.106998s)
+[2015.03.23-17.43.17:062][700]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.23-17.43.17:070][700]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.23-17.43.17:081][700]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.23-12.43.17
+[2015.03.23-17.43.17:083][700]LogWorld: Bringing up level for play took: 0.011604
+[2015.03.23-17.43.17:085][700]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.23-17.43.17:086][700]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2015.03.23-17.43.17:088][700]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.571
+[2015.03.23-17.43.27:542][809]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000049358A0
+[2015.03.23-17.44.34:444][927]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.23-17.44.34:458][927]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.23-17.44.34:531][927]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.44.34:533][927]LogBlueprint:Warning: [compiler] Warning [1877.64] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 70 ms]
+[2015.03.23-17.44.34:535][927]LogBlueprint:Warning: [compiler] Warning [1877.64] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.44.34:650][927]LogBlueprint:Warning: [compiler] Warning [1877.76] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 114 ms]
+[2015.03.23-17.44.34:659][927]LogBlueprint:Warning: [compiler] Warning [1877.77] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 8 ms]
+[2015.03.23-17.44.34:659][927]LogBlueprint:Warning: [compiler] Warning [1877.77] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-17.44.34:659][927]LogBlueprint:Warning: [compiler] Warning [1877.77] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-17.44.34:726][927]LogPlayLevel: PIE:  Blueprint regeneration took 282 ms (1 blueprints)
+[2015.03.23-17.44.34:727][927]PIE: New page: SIE session: PuzzleExampleMap (Mar 23, 2015, 7:44:34 AM)
+[2015.03.23-17.44.34:845][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117471s)
+[2015.03.23-17.44.34:850][927]LogPlayLevel: PIE: World Init took: (0.004182s)
+[2015.03.23-17.44.34:850][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.122256s)
+[2015.03.23-17.44.35:026][927]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.23-17.44.35:030][927]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.23-17.44.35:035][927]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.23-12.44.35
+[2015.03.23-17.44.35:037][927]LogWorld: Bringing up level for play took: 0.005287
+[2015.03.23-17.44.35:038][927]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.23-17.44.35:040][927]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2015.03.23-17.44.35:041][927]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.521
+[2015.03.23-17.44.43:333][ 10]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002602A840
+[2015.03.23-17.44.45:805][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-17.44.45:884][ 74]LogSavePackage: Save=45.045933ms
+[2015.03.23-17.44.45:884][ 74]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerController65CE86314118848FD4CFA1ADEDCADEAC.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-17.45.11:656][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-17.45.11:729][437]LogSavePackage: Save=47.755051ms
+[2015.03.23-17.45.11:729][437]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerControllerBD41F02B43B9B17A8B86D487C7173C37.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-17.45.16:046][549]BlueprintLog: New page: Compile RunnerController
+[2015.03.23-17.45.16:177][549]BlueprintEditorCompileResults: Info [1919.28] Compile of RunnerController successful! [in 129 ms]
+[2015.03.23-17.45.24:556][979]BlueprintLog: New page: Compile RunnerController
+[2015.03.23-17.45.24:700][979]BlueprintEditorCompileResults: Info [1927.80] Compile of RunnerController successful! [in 143 ms]
+[2015.03.23-17.45.30:699][186]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.23-17.45.30:708][186]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.23-17.45.30:789][186]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.45.30:790][186]LogBlueprint:Warning: [compiler] Warning [1933.89] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 78 ms]
+[2015.03.23-17.45.30:791][186]LogBlueprint:Warning: [compiler] Warning [1933.90] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.45.30:846][186]LogBlueprint:Warning: [compiler] Warning [1933.95] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 54 ms]
+[2015.03.23-17.45.30:852][186]LogBlueprint:Warning: [compiler] Warning [1933.96] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 6 ms]
+[2015.03.23-17.45.30:852][186]LogBlueprint:Warning: [compiler] Warning [1933.96] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-17.45.30:853][186]LogBlueprint:Warning: [compiler] Warning [1933.96] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-17.45.30:901][186]LogPlayLevel: PIE:  Blueprint regeneration took 202 ms (1 blueprints)
+[2015.03.23-17.45.30:901][186]PIE: New page: SIE session: PuzzleExampleMap (Mar 23, 2015, 7:45:30 AM)
+[2015.03.23-17.45.31:028][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.126226s)
+[2015.03.23-17.45.31:042][186]LogPlayLevel: PIE: World Init took: (0.013340s)
+[2015.03.23-17.45.31:042][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.140121s)
+[2015.03.23-17.45.31:229][186]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.23-17.45.31:234][186]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.23-17.45.31:239][186]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.23-12.45.31
+[2015.03.23-17.45.31:239][186]LogWorld: Bringing up level for play took: 0.005029
+[2015.03.23-17.45.31:240][186]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.03.23-17.45.31:241][186]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2015.03.23-17.45.31:241][186]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.719
+[2015.03.23-17.45.44:541][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000041CF0EA0
+[2015.03.23-17.48.09:151][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-17.48.09:241][693]LogSavePackage: Save=44.508213ms
+[2015.03.23-17.48.09:241][693]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerControllerC3BAAC1E47B43D3E5FD88D96B6942B88.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-17.48.09:642][717]BlueprintLog: New page: Compile RunnerController
+[2015.03.23-17.48.09:739][717]BlueprintEditorCompileResults: Info [2092.84] Compile of RunnerController successful! [in 97 ms]
+[2015.03.23-17.48.10:945][789]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.23-17.48.11:158][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerCharacter" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset" SILENT=true
+[2015.03.23-17.48.11:899][789]LogSavePackage: Save=720.144775ms
+[2015.03.23-17.48.11:899][789]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerCharacter4F7E265547C0038275AF2FA0CEF1780B.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.23-17.48.11:943][789]BlueprintEditorCompileResults: Info [2095.04] Compile of RunnerCharacter successful! [in 997 ms]
+[2015.03.23-17.48.14:264][848]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.23-17.48.14:369][848]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.48.14:371][848]LogBlueprint:Warning: [compiler] Warning [2097.47] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 18 ms]
+[2015.03.23-17.48.14:372][848]LogBlueprint:Warning: [compiler] Warning [2097.47] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.48.14:416][848]LogBlueprint:Warning: [compiler] Warning [2097.51] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 44 ms]
+[2015.03.23-17.48.14:420][848]LogBlueprint:Warning: [compiler] Warning [2097.52] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.23-17.48.14:420][848]LogBlueprint:Warning: [compiler] Warning [2097.52] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-17.48.14:420][848]LogBlueprint:Warning: [compiler] Warning [2097.52] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-17.48.14:664][848]LogSavePackage: Save=317.098907ms
+[2015.03.23-17.48.14:664][848]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/PuzzleExampleMapCF928F0742C0CFC0810B94BF89B91096.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.23-17.48.47:682][251]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.48.47:683][251]LogBlueprint:Warning: [compiler] Warning [2130.78] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 13 ms]
+[2015.03.23-17.48.47:684][251]LogBlueprint:Warning: [compiler] Warning [2130.78] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.48.47:728][251]LogBlueprint:Warning: [compiler] Warning [2130.82] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 43 ms]
+[2015.03.23-17.48.47:732][251]LogBlueprint:Warning: [compiler] Warning [2130.83] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.23-17.48.47:732][251]LogBlueprint:Warning: [compiler] Warning [2130.83] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-17.48.47:732][251]LogBlueprint:Warning: [compiler] Warning [2130.83] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-17.48.47:953][251]LogSavePackage: Save=285.438385ms
+[2015.03.23-17.48.47:953][251]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/PuzzleExampleMapDC4081404BEC66A300EB2FB9EB71D926.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.23-17.48.56:203][317]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.48.56:204][317]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.48.56:205][317]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.48.56:206][317]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.48.56:206][317]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.48.56:206][317]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.48.59:178][342]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.48.59:179][342]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.48.59:179][342]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.48.59:180][342]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.48.59:181][342]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.48.59:181][342]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.49.05:178][391]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.03.23-17.49.28:805][577]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.49.28:806][577]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.49.28:806][577]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.49.28:807][577]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.49.28:808][577]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.03.23-17.49.28:808][577]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.03.23-17.49.49:597][725]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.03.23-17.50.35:960][466]BlueprintLog: New page: Compile RunnerController
+[2015.03.23-17.50.36:028][466]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.23-17.50.36:133][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-17.50.36:210][466]LogSavePackage: Save=38.463554ms
+[2015.03.23-17.50.36:210][466]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerController45C4033D41B4A3931DA40FA69619F40A.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-17.50.36:219][466]BlueprintEditorCompileResults: Info [2239.31] Compile of RunnerController successful! [in 258 ms]
+[2015.03.23-17.53.37:203][150]BlueprintLog: New page: Compile RunnerController
+[2015.03.23-17.53.37:398][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-17.53.37:485][150]LogSavePackage: Save=66.468903ms
+[2015.03.23-17.53.37:485][150]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerController58C253A84D6C17956963CC841DDA27C2.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-17.53.37:501][150]BlueprintEditorCompileResults: Info [2420.58] Compile of RunnerController successful! [in 297 ms]
+[2015.03.23-17.53.38:784][223]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.23-17.53.39:030][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerCharacter" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset" SILENT=true
+[2015.03.23-17.53.39:889][223]LogSavePackage: Save=828.150330ms
+[2015.03.23-17.53.39:889][223]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerCharacterBE2D8C2E493387693DAD2D8ACA70BCC2.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.23-17.53.39:950][223]BlueprintEditorCompileResults: Info [2423.03] Compile of RunnerCharacter successful! [in 1,165 ms]
+[2015.03.23-17.53.42:788][275]MapCheck: New page: Map Check
+[2015.03.23-17.53.43:076][275]Cmd: MAP REBUILD ALLVISIBLE
+[2015.03.23-17.53.43:085][275]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.03.23-17.53.43:278][275]LightingResults: New page: Lighting Build - Mar 23, 2015, 7:53:43 AM
+[2015.03.23-17.53.58:834][275]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.03.23-17.53.58:834][275]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.03.23-17.53.58:834][275]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.03.23-17.53.58:834][275]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.03.23-17.53.58:834][275]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.03.23-17.53.59:315][275]LogEditorBuildUtils: Build time 0:00:16
+[2015.03.23-17.54.00:375][279]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.23-17.54.05:234][309]Job is a success!
+[2015.03.23-17.54.06:166][310]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.03.23-17.54.06:406][310]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.03.23-17.54.06:812][310]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.03.23-17.54.07:176][310]Lightmass on JEREMYMARTIN-PC: 4.13 sec total, 374 ms importing, 0 ms setup, 412 ms photons, 2.85 sec processing, 0 ms extra exporting [6/6 mappings]. Threads: 19.8 sec total, 1.55 sec processing.
+[2015.03.23-17.54.07:261][310]LogStaticLightingSystem: Illumination: 23.6 sec (959 ms encoding lightmaps)
+[2015.03.23-17.54.07:261][310]LogStaticLightingSystem: Lightmap texture memory:  1.3 MB (0.0 MB streaming, 1.3 MB non-streaming), 2 textures
+[2015.03.23-17.54.07:262][310]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (0.0 MB streaming, 2.7 MB non-streaming), 1 textures
+[2015.03.23-17.54.07:861][311]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.03.23-17.54.07:862][311]MapCheck: New page: PuzzleExampleMap - Mar 23, 2015, 7:54:07 AM
+[2015.03.23-17.54.08:016][311]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 154.39ms to complete.
+[2015.03.23-17.56.51:141][271]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.23-17.56.51:154][271]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.23-17.56.51:187][271]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.56.51:189][271]LogBlueprint:Warning: [compiler] Warning [2614.26] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 30 ms]
+[2015.03.23-17.56.51:191][271]LogBlueprint:Warning: [compiler] Warning [2614.26] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.56.51:302][271]LogBlueprint:Warning: [compiler] Warning [2614.37] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 110 ms]
+[2015.03.23-17.56.51:311][271]LogBlueprint:Warning: [compiler] Warning [2614.38] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 8 ms]
+[2015.03.23-17.56.51:311][271]LogBlueprint:Warning: [compiler] Warning [2614.38] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-17.56.51:311][271]LogBlueprint:Warning: [compiler] Warning [2614.38] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-17.56.51:312][271]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.23-17.56.51:313][271]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.03.23-17.56.51:379][271]LogPlayLevel: PIE:  Blueprint regeneration took 237 ms (1 blueprints)
+[2015.03.23-17.56.51:379][271]PIE: New page: SIE session: PuzzleExampleMap (Mar 23, 2015, 7:56:51 AM)
+[2015.03.23-17.56.51:478][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097507s)
+[2015.03.23-17.56.51:517][271]LogPlayLevel: PIE: World Init took: (0.038260s)
+[2015.03.23-17.56.51:517][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.136465s)
+[2015.03.23-17.56.51:633][271]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.23-17.56.51:640][271]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.23-17.56.51:651][271]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.03.23-12.56.51
+[2015.03.23-17.56.51:654][271]LogWorld: Bringing up level for play took: 0.011470
+[2015.03.23-17.56.51:678][271]LogBlueprintUserMessages: YAY
+[2015.03.23-17.56.51:679][271]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2015.03.23-17.56.51:681][271]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 1.127
+[2015.03.23-17.57.09:111][418]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039C74220
+[2015.03.23-17.57.23:591][183]BlueprintLog: New page: Compile RunnerController
+[2015.03.23-17.57.23:775][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-17.57.23:866][183]LogSavePackage: Save=48.561813ms
+[2015.03.23-17.57.23:866][183]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerControllerBE715DA4430E6D0EED88FFB1D8ECD809.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-17.57.23:883][183]BlueprintEditorCompileResults: Info [2646.95] Compile of RunnerController successful! [in 292 ms]
+[2015.03.23-17.57.34:842][750]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-17.57.34:843][750]LogBlueprint:Warning: [compiler] Warning [2657.91] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 12 ms]
+[2015.03.23-17.57.34:845][750]LogBlueprint:Warning: [compiler] Warning [2657.91] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-17.57.34:898][750]LogBlueprint:Warning: [compiler] Warning [2657.97] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 53 ms]
+[2015.03.23-17.57.34:902][750]LogBlueprint:Warning: [compiler] Warning [2657.97] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 4 ms]
+[2015.03.23-17.57.34:903][750]LogBlueprint:Warning: [compiler] Warning [2657.97] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-17.57.34:903][750]LogBlueprint:Warning: [compiler] Warning [2657.97] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-17.57.35:121][750]LogSavePackage: Save=294.654022ms
+[2015.03.23-17.57.35:121][750]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/PuzzleExampleMap4454E4AA402FEB773C268C8D4EF6BF49.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.23-19.43.48:120][431]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.03.23-19.43.56:162][454]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.055
+[2015.03.23-19.46.00:662][679]LogEditorViewport: Clicking on Actor (LMB): skyB_C (skyB)
+[2015.03.23-19.46.08:170][770]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.23-19.53.56:632][112]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-19.53.56:633][112]LogBlueprint:Warning: [compiler] Warning [9638.23] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 6 ms]
+[2015.03.23-19.53.56:633][112]LogBlueprint:Warning: [compiler] Warning [9638.23] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-19.53.56:661][112]LogBlueprint:Warning: [compiler] Warning [9638.26] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 27 ms]
+[2015.03.23-19.53.56:664][112]LogBlueprint:Warning: [compiler] Warning [9638.26] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 3 ms]
+[2015.03.23-19.53.56:664][112]LogBlueprint:Warning: [compiler] Warning [9638.26] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-19.53.56:664][112]LogBlueprint:Warning: [compiler] Warning [9638.26] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-19.53.56:733][112]LogSavePackage: Save=107.959007ms
+[2015.03.23-19.53.56:733][112]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/PuzzleExampleMap_Auto2AACD963042316C431042E2BDAC28E3A5.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto2.umap'
+[2015.03.23-19.53.56:741][112]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.207
+[2015.03.23-19.53.56:741][112]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.207
+[2015.03.23-19.53.56:774][112]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/RunnerCharacter] ([1] browsable assets)...
+[2015.03.23-19.53.56:774][112]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/RunnerCharacter]
+[2015.03.23-19.53.56:902][112]LogSavePackage: Save=91.053673ms
+[2015.03.23-19.53.56:903][112]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerCharacter_Auto2FA0A2147457D1388E25852B374EBE22B.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/Autosaves/Game/Blueprints/RunnerCharacter_Auto2.uasset'
+[2015.03.23-19.53.56:938][112]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/RunnerController] ([1] browsable assets)...
+[2015.03.23-19.53.56:938][112]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/RunnerController]
+[2015.03.23-19.53.57:048][112]LogSavePackage: Save=71.675278ms
+[2015.03.23-19.53.57:048][112]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerController_Auto204B6352842313A09EE11188EFDB81F8F.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/Autosaves/Game/Blueprints/RunnerController_Auto2.uasset'
+[2015.03.23-19.53.57:054][112]LogFileHelpers: Auto-saving content packages took 0.313
+[2015.03.23-19.57.38:960][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerCharacter" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset" SILENT=true
+[2015.03.23-19.57.39:003][759]LogSavePackage: Save=25.290367ms
+[2015.03.23-19.57.39:003][759]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerCharacterC899A4F34ABCBAE3CD9246A016FFA878.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.23-19.57.41:392][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-19.57.41:417][899]LogSavePackage: Save=14.366652ms
+[2015.03.23-19.57.41:417][899]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerController4DF266BF40E05AA4896B94ACF43C4A2F.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-20.01.25:679][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-20.01.25:717][408]LogSavePackage: Save=21.058628ms
+[2015.03.23-20.01.25:717][408]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerController3D48B8954E2C40BC68D7D9A233879149.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-20.04.05:692][292]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.020
+[2015.03.23-20.04.05:722][292]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/RunnerController] ([1] browsable assets)...
+[2015.03.23-20.04.05:728][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/RunnerController]
+[2015.03.23-20.04.05:849][292]LogSavePackage: Save=100.652336ms
+[2015.03.23-20.04.05:850][292]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerController_Auto3E2288F0F453E7C2F782CC3BF0C9EC18F.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/Autosaves/Game/Blueprints/RunnerController_Auto3.uasset'
+[2015.03.23-20.04.05:855][292]LogFileHelpers: Auto-saving content packages took 0.163
+[2015.03.23-20.14.04:015][212]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.020
+[2015.03.23-20.14.04:050][212]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/RunnerController] ([1] browsable assets)...
+[2015.03.23-20.14.04:056][212]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/RunnerController]
+[2015.03.23-20.14.04:192][212]LogSavePackage: Save=116.827881ms
+[2015.03.23-20.14.04:193][212]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerController_Auto40DB55EA14827BDE007B3028BE328C774.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/Autosaves/Game/Blueprints/RunnerController_Auto4.uasset'
+[2015.03.23-20.14.04:199][212]LogFileHelpers: Auto-saving content packages took 0.184
+[2015.03.23-20.20.01:064][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-20.20.01:104][295]LogSavePackage: Save=22.709904ms
+[2015.03.23-20.20.01:104][295]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerController05D2F34044239FF4BE2677816F07ECF3.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-20.20.04:181][539]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-20.20.04:181][539]LogBlueprint:Warning: [compiler] Warning [1205.70] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 6 ms]
+[2015.03.23-20.20.04:182][539]LogBlueprint:Warning: [compiler] Warning [1205.70] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-20.20.04:209][539]LogBlueprint:Warning: [compiler] Warning [1205.73] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 27 ms]
+[2015.03.23-20.20.04:212][539]LogBlueprint:Warning: [compiler] Warning [1205.73] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 2 ms]
+[2015.03.23-20.20.04:212][539]LogBlueprint:Warning: [compiler] Warning [1205.73] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-20.20.04:212][539]LogBlueprint:Warning: [compiler] Warning [1205.73] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-20.20.04:285][539]LogSavePackage: Save=111.442261ms
+[2015.03.23-20.20.04:285][539]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/PuzzleExampleMap43F6545D4070B1020406F8848A37B2FD.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.23-20.20.04:765][546]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-20.20.04:765][546]LogBlueprint:Warning: [compiler] Warning [1206.28] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 5 ms]
+[2015.03.23-20.20.04:766][546]LogBlueprint:Warning: [compiler] Warning [1206.28] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-20.20.04:790][546]LogBlueprint:Warning: [compiler] Warning [1206.31] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 24 ms]
+[2015.03.23-20.20.04:793][546]LogBlueprint:Warning: [compiler] Warning [1206.31] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 2 ms]
+[2015.03.23-20.20.04:793][546]LogBlueprint:Warning: [compiler] Warning [1206.31] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-20.20.04:793][546]LogBlueprint:Warning: [compiler] Warning [1206.31] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-20.20.04:866][546]LogSavePackage: Save=107.729912ms
+[2015.03.23-20.20.04:866][546]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/PuzzleExampleMap8076DE1B4E0F5345131D889FBA18964E.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.23-20.22.50:275][322]BlueprintLog: New page: Compile RunnerController
+[2015.03.23-20.22.50:367][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerController" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset" SILENT=true
+[2015.03.23-20.22.50:420][322]LogSavePackage: Save=16.753580ms
+[2015.03.23-20.22.50:420][322]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerController1950D33C402EB8BEE48DE58617BB13CB.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerController.uasset'
+[2015.03.23-20.22.50:424][322]BlueprintEditorCompileResults: Info [1371.93] Compile of RunnerController successful! [in 148 ms]
+[2015.03.23-20.25.21:159][987]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.23-20.30.04:583][982]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.022
+[2015.03.23-20.30.04:619][982]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/RunnerCharacter] ([1] browsable assets)...
+[2015.03.23-20.30.04:681][982]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/RunnerCharacter.RunnerCharacter]
+[2015.03.23-20.30.04:681][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/RunnerCharacter]
+[2015.03.23-20.30.05:134][982]LogSavePackage: Save=437.564362ms
+[2015.03.23-20.30.05:135][982]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerCharacter_Auto58754A0F24F16996B710CE5A44EDF3159.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/Autosaves/Game/Blueprints/RunnerCharacter_Auto5.uasset'
+[2015.03.23-20.30.05:141][982]LogFileHelpers: Auto-saving content packages took 0.558
+[2015.03.23-20.32.03:464][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerCharacter" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset" SILENT=true
+[2015.03.23-20.32.03:920][717]LogSavePackage: Save=443.178680ms
+[2015.03.23-20.32.03:920][717]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerCharacter25E5140E4825D1F54BADC5BE37A04C96.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.23-20.32.04:167][746]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.23-20.32.04:241][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.23-20.32.04:263][746]BlueprintEditorCompileResults: Info [1925.75] Compile of RunnerCharacter successful! [in 96 ms]
+[2015.03.23-20.32.04:335][753]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.23-20.32.04:431][753]BlueprintEditorCompileResults: Info [1925.91] Compile of RunnerCharacter successful! [in 96 ms]
+[2015.03.23-20.32.07:687][880]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.23-20.32.07:741][880]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-20.32.07:741][880]LogBlueprint:Warning: [compiler] Warning [1929.22] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 5 ms]
+[2015.03.23-20.32.07:742][880]LogBlueprint:Warning: [compiler] Warning [1929.22] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-20.32.07:767][880]LogBlueprint:Warning: [compiler] Warning [1929.25] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 23 ms]
+[2015.03.23-20.32.07:769][880]LogBlueprint:Warning: [compiler] Warning [1929.25] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 2 ms]
+[2015.03.23-20.32.07:770][880]LogBlueprint:Warning: [compiler] Warning [1929.25] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-20.32.07:770][880]LogBlueprint:Warning: [compiler] Warning [1929.25] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-20.32.07:836][880]LogSavePackage: Save=101.033173ms
+[2015.03.23-20.32.07:836][880]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/PuzzleExampleMapD763862D404D36E0D50BFE84FD5F91AB.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.23-20.32.12:182][938]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.23-20.32.12:186][938]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.23-20.32.12:298][938]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-20.32.12:299][938]LogBlueprint:Warning: [compiler] Warning [1933.78] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 112 ms]
+[2015.03.23-20.32.12:299][938]LogBlueprint:Warning: [compiler] Warning [1933.78] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-20.32.12:326][938]LogBlueprint:Warning: [compiler] Warning [1933.81] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 26 ms]
+[2015.03.23-20.32.12:328][938]LogBlueprint:Warning: [compiler] Warning [1933.81] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 2 ms]
+[2015.03.23-20.32.12:328][938]LogBlueprint:Warning: [compiler] Warning [1933.81] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-20.32.12:328][938]LogBlueprint:Warning: [compiler] Warning [1933.81] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-20.32.12:348][938]LogPlayLevel: PIE:  Blueprint regeneration took 165 ms (1 blueprints)
+[2015.03.23-20.32.12:348][938]PIE: New page: SIE session: PuzzleExampleMap (Mar 23, 2015, 10:32:12 AM)
+[2015.03.23-20.32.12:380][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032000s)
+[2015.03.23-20.32.12:385][938]LogPlayLevel: PIE: World Init took: (0.005293s)
+[2015.03.23-20.32.12:386][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.037527s)
+[2015.03.23-20.32.12:444][938]LogSelection:Warning: PIE object was selected: "RunnerCharacter_C /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.RunnerCharacter_C_1"
+[2015.03.23-20.32.12:491][938]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.23-20.32.12:498][938]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.23-20.32.12:508][938]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2015.03.23-15.32.12
+[2015.03.23-20.32.12:509][938]LogWorld: Bringing up level for play took: 0.009488
+[2015.03.23-20.32.12:510][938]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2015.03.23-20.32.12:510][938]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.365
+[2015.03.23-20.32.12:569][938]LogSelection:Warning: PIE object was selected: "RunnerCharacter_C /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.RunnerCharacter_C_1"
+[2015.03.23-20.33.50:536][614]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F73B6A0
+[2015.03.23-20.33.50:865][619]Cmd: SELECT NONE
+[2015.03.23-20.33.51:353][625]Cmd: SELECT NONE
+[2015.03.23-20.34.07:482][814]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.23-20.34.07:490][814]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.23-20.34.07:531][814]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-20.34.07:532][814]LogBlueprint:Warning: [compiler] Warning [2049.01] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 40 ms]
+[2015.03.23-20.34.07:532][814]LogBlueprint:Warning: [compiler] Warning [2049.01] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-20.34.07:566][814]LogBlueprint:Warning: [compiler] Warning [2049.04] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 32 ms]
+[2015.03.23-20.34.07:570][814]LogBlueprint:Warning: [compiler] Warning [2049.05] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 4 ms]
+[2015.03.23-20.34.07:570][814]LogBlueprint:Warning: [compiler] Warning [2049.05] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-20.34.07:570][814]LogBlueprint:Warning: [compiler] Warning [2049.05] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-20.34.07:602][814]LogPlayLevel: PIE:  Blueprint regeneration took 119 ms (1 blueprints)
+[2015.03.23-20.34.07:602][814]PIE: New page: SIE session: PuzzleExampleMap (Mar 23, 2015, 10:34:07 AM)
+[2015.03.23-20.34.07:645][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042150s)
+[2015.03.23-20.34.07:664][814]LogPlayLevel: PIE: World Init took: (0.018525s)
+[2015.03.23-20.34.07:664][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.060912s)
+[2015.03.23-20.34.07:722][814]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.23-20.34.07:724][814]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.23-20.34.07:727][814]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2015.03.23-15.34.07
+[2015.03.23-20.34.07:728][814]LogWorld: Bringing up level for play took: 0.003017
+[2015.03.23-20.34.07:729][814]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2015.03.23-20.34.07:729][814]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.421
+[2015.03.23-20.34.22:545][111]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F73ADE0
+[2015.03.23-20.34.22:608][111]Cmd: SELECT NONE
+[2015.03.23-20.34.22:781][115]Cmd: SELECT NONE
+[2015.03.23-20.34.23:528][124]Cmd: SELECT NONE
+[2015.03.23-20.34.23:692][126]Cmd: SELECT NONE
+[2015.03.23-20.35.59:096][293]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.23-20.35.59:099][293]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.23-20.35.59:161][293]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-20.35.59:161][293]LogBlueprint:Warning: [compiler] Warning [2160.63] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 61 ms]
+[2015.03.23-20.35.59:162][293]LogBlueprint:Warning: [compiler] Warning [2160.63] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-20.35.59:207][293]LogBlueprint:Warning: [compiler] Warning [2160.68] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 44 ms]
+[2015.03.23-20.35.59:214][293]LogBlueprint:Warning: [compiler] Warning [2160.68] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 7 ms]
+[2015.03.23-20.35.59:215][293]LogBlueprint:Warning: [compiler] Warning [2160.69] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-20.35.59:215][293]LogBlueprint:Warning: [compiler] Warning [2160.69] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-20.35.59:245][293]LogPlayLevel: PIE:  Blueprint regeneration took 149 ms (1 blueprints)
+[2015.03.23-20.35.59:245][293]PIE: New page: SIE session: PuzzleExampleMap (Mar 23, 2015, 10:35:59 AM)
+[2015.03.23-20.35.59:288][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042891s)
+[2015.03.23-20.35.59:294][293]LogPlayLevel: PIE: World Init took: (0.005353s)
+[2015.03.23-20.35.59:294][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.048475s)
+[2015.03.23-20.35.59:359][293]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.23-20.35.59:361][293]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.23-20.35.59:364][293]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2015.03.23-15.35.59
+[2015.03.23-20.35.59:364][293]LogWorld: Bringing up level for play took: 0.002992
+[2015.03.23-20.35.59:365][293]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2015.03.23-20.35.59:366][293]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 1.209
+[2015.03.23-20.36.25:922][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F73AB60
+[2015.03.23-20.37.19:876][ 37]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.23-20.37.20:042][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerCharacter" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset" SILENT=true
+[2015.03.23-20.37.20:452][ 37]LogSavePackage: Save=396.801849ms
+[2015.03.23-20.37.20:452][ 37]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerCharacter6EE91D67424BB0A7920574AD1B2F1953.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.23-20.37.20:456][ 37]BlueprintEditorCompileResults: Info [2241.92] Compile of RunnerCharacter successful! [in 579 ms]
+[2015.03.23-20.37.24:151][277]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.23-20.37.24:195][277]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-20.37.24:196][277]LogBlueprint:Warning: [compiler] Warning [2245.66] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 6 ms]
+[2015.03.23-20.37.24:196][277]LogBlueprint:Warning: [compiler] Warning [2245.66] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-20.37.24:220][277]LogBlueprint:Warning: [compiler] Warning [2245.69] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 23 ms]
+[2015.03.23-20.37.24:223][277]LogBlueprint:Warning: [compiler] Warning [2245.69] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 2 ms]
+[2015.03.23-20.37.24:223][277]LogBlueprint:Warning: [compiler] Warning [2245.69] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-20.37.24:223][277]LogBlueprint:Warning: [compiler] Warning [2245.69] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-20.37.24:295][277]LogSavePackage: Save=107.148209ms
+[2015.03.23-20.37.24:295][277]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/PuzzleExampleMapC3DDA1914B9BF9FA38BF9083097A433C.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.23-20.37.25:758][298]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.23-20.37.25:763][298]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.03.23-20.37.25:772][298]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-20.37.25:773][298]LogBlueprint:Warning: [compiler] Warning [2247.24] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.23-20.37.25:773][298]LogBlueprint:Warning: [compiler] Warning [2247.24] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-20.37.25:798][298]LogBlueprint:Warning: [compiler] Warning [2247.26] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 24 ms]
+[2015.03.23-20.37.25:800][298]LogBlueprint:Warning: [compiler] Warning [2247.27] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 2 ms]
+[2015.03.23-20.37.25:800][298]LogBlueprint:Warning: [compiler] Warning [2247.27] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-20.37.25:800][298]LogBlueprint:Warning: [compiler] Warning [2247.27] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-20.37.25:818][298]LogPlayLevel: PIE:  Blueprint regeneration took 60 ms (1 blueprints)
+[2015.03.23-20.37.25:818][298]PIE: New page: SIE session: PuzzleExampleMap (Mar 23, 2015, 10:37:25 AM)
+[2015.03.23-20.37.25:853][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034241s)
+[2015.03.23-20.37.25:858][298]LogPlayLevel: PIE: World Init took: (0.004976s)
+[2015.03.23-20.37.25:858][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.039467s)
+[2015.03.23-20.37.25:925][298]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.03.23-20.37.25:932][298]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.03.23-20.37.25:943][298]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2015.03.23-15.37.25
+[2015.03.23-20.37.25:945][298]LogWorld: Bringing up level for play took: 0.011895
+[2015.03.23-20.37.25:948][298]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2015.03.23-20.37.25:949][298]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.212
+[2015.03.23-20.37.43:259][560]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002364D9E0
+[2015.03.23-20.37.43:529][565]Cmd: SELECT NONE
+[2015.03.23-20.41.19:185][644]BlueprintLog: New page: Compile RunnerCharacter
+[2015.03.23-20.41.19:354][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/RunnerCharacter" FILE="../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset" SILENT=true
+[2015.03.23-20.41.19:778][644]LogSavePackage: Save=402.083710ms
+[2015.03.23-20.41.19:779][644]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/RunnerCharacter62CB875C43F2CEDE440911948F86BD61.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/Blueprints/RunnerCharacter.uasset'
+[2015.03.23-20.41.19:784][644]BlueprintEditorCompileResults: Info [2481.24] Compile of RunnerCharacter successful! [in 599 ms]
+[2015.03.23-20.41.27:089][192]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.23-20.41.27:133][192]LogBlueprint:Warning: [compiler] Warning Node  Unknown  is not referencing a valid level actor
+[2015.03.23-20.41.27:134][192]LogBlueprint:Warning: [compiler] Warning [2488.59] Compile of PuzzleExampleMap successful, but with 1 Warning(s) [in 5 ms]
+[2015.03.23-20.41.27:134][192]LogBlueprint:Warning: [compiler] Warning [2488.59] Compile of PuzzleExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.23-20.41.27:159][192]LogBlueprint:Warning: [compiler] Warning [2488.61] Compile of PuzzleExampleMap successful, but with 3 Warning(s) [in 24 ms]
+[2015.03.23-20.41.27:161][192]LogBlueprint:Warning: [compiler] Warning [2488.62] Compile of PuzzleExampleMap successful, but with 4 Warning(s) [in 2 ms]
+[2015.03.23-20.41.27:161][192]LogBlueprint:Warning: [compiler] Warning [2488.62] Compile of PuzzleExampleMap successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.23-20.41.27:162][192]LogBlueprint:Warning: [compiler] Warning [2488.62] Compile of PuzzleExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.23-20.41.27:232][192]LogSavePackage: Save=105.455879ms
+[2015.03.23-20.41.27:232][192]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Saved/PuzzleExampleMapF2DD12E34018C28B32F2CB8A910041E5.tmp' to '../../../../../../Users/Jeremy Martin/Documents/BU/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.03.23-20.41.33:790][271]Cmd: QUIT_EDITOR
+[2015.03.23-20.41.34:028][271]LogExit: Preparing to exit.
+[2015.03.23-20.41.34:845][271]LogExit: Editor shut down
+[2015.03.23-20.41.34:845][271]LogExit: Transaction tracking system shut down
+[2015.03.23-20.41.34:846][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C78D4E0
+[2015.03.23-20.41.34:846][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000163CB7E0
+[2015.03.23-20.41.34:846][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013DA4B80
+[2015.03.23-20.41.34:846][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012EBC2C0
+[2015.03.23-20.41.34:846][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AC0B100
+[2015.03.23-20.41.34:847][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002E832A20
+[2015.03.23-20.41.34:848][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000004937060
+[2015.03.23-20.41.34:848][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024A340E0
+[2015.03.23-20.41.34:848][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000124762A0
+[2015.03.23-20.41.34:904][271]LogExit: Object subsystem successfully closed.
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (178)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.03.23-20.41.34:951][271]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.03.23-20.41.34:952][271]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.03.23-20.41.34:952][271]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.03.23-20.41.34:952][271]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.03.23-20.41.34:952][271]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.03.23-20.41.34:952][271]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.03.23-20.41.34:952][271]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.03.23-20.41.34:952][271]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.03.23-20.41.34:952][271]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.03.23-20.41.34:952][271]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.03.23-20.41.34:952][271]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.03.23-20.41.35:750][271]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.03.23-20.41.35:750][271]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.03.23-20.41.35:750][271]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.03.23-20.41.35:751][271]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.03.23-20.41.35:751][271]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.03.23-20.41.35:751][271]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.03.23-20.41.35:751][271]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.03.23-20.41.35:751][271]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.03.23-20.41.35:751][271]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.03.23-20.41.35:751][271]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.03.23-20.41.35:751][271]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.03.23-20.41.35:751][271]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.03.23-20.41.35:752][271]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.03.23-20.41.35:752][271]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.03.23-20.41.35:752][271]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.03.23-20.41.35:752][271]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.03.23-20.41.35:752][271]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.03.23-20.41.35:752][271]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.03.23-20.41.35:752][271]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.03.23-20.41.35:850][271]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.03.23-20.41.35:850][271]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.03.23-20.41.35:850][271]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.03.23-20.41.35:852][271]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.03.23-20.41.36:028][271]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.03.23-20.41.36:028][271]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.03.23-20.41.36:028][271]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.03.23-20.41.36:028][271]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.03.23-20.41.36:028][271]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.03.23-20.41.36:028][271]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.03.23-20.41.36:028][271]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.03.23-20.41.36:029][271]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.03.23-20.41.36:029][271]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.03.23-20.41.36:029][271]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.03.23-20.41.36:029][271]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.03.23-20.41.36:029][271]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.03.23-20.41.36:029][271]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.03.23-20.41.36:030][271]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.03.23-20.41.36:030][271]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.03.23-20.41.36:030][271]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.03.23-20.41.36:030][271]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.03.23-20.41.36:030][271]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.03.23-20.41.36:030][271]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.03.23-20.41.36:030][271]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.03.23-20.41.36:030][271]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.03.23-20.41.36:030][271]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.03.23-20.41.36:030][271]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.03.23-20.41.36:030][271]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.03.23-20.41.36:033][271]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.03.23-20.41.36:033][271]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.03.23-20.41.36:033][271]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.03.23-20.41.36:133][271]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.03.23-20.41.36:133][271]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.03.23-20.41.36:140][271]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.03.23-20.41.36:140][271]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.03.23-20.41.36:140][271]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.03.23-20.41.36:140][271]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.03.23-20.41.36:141][271]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.03.23-20.41.36:141][271]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.03.23-20.41.36:141][271]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.03.23-20.41.36:141][271]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.03.23-20.41.36:141][271]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.03.23-20.41.36:141][271]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.03.23-20.41.36:141][271]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.03.23-20.41.36:141][271]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.03.23-20.41.36:141][271]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.03.23-20.41.36:141][271]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.03.23-20.41.36:141][271]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.03.23-20.41.36:155][271]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.03.23-20.41.36:155][271]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.03.23-20.41.36:155][271]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.03.23-20.41.36:155][271]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.03.23-20.41.36:156][271]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.03.23-20.41.36:156][271]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.03.23-20.41.36:156][271]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.03.23-20.41.36:156][271]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.03.23-20.41.36:156][271]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.03.23-20.41.36:156][271]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.03.23-20.41.36:174][271]LogDerivedDataCache: Shutdown
+[2015.03.23-20.41.36:174][271]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.03.23-20.41.36:174][271]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.03.23-20.41.36:175][271]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.23-20.41.36:176][271]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.23-20.41.36:187][271]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.23-20.41.36:187][271]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.23-20.41.36:187][271]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.23-20.41.36:187][271]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.23-20.41.36:187][271]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.23-20.41.36:187][271]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.23-20.41.36:187][271]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.23-20.41.36:187][271]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.23-20.41.36:187][271]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.23-20.41.36:189][271]LogExit: Exiting.
+[2015.03.23-20.41.36:221][271]Log file closed, 03/23/15 15:41:36
