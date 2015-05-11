@@ -1,0 +1,456 @@
+﻿Log file open, 05/07/15 17:29:17
+LogInit:Display: Running engine for game: ENPo
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.07-22.29.17:160][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.07-22.29.17:209][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.07-22.29.17:220][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.07-22.29.17:228][  0]LogInit: Object subsystem initialized
+[2015.05.07-22.29.17:229][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.07-22.29.17:229][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.07-22.29.17:229][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.07-22.29.17:229][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.07-22.29.17:229][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.07-22.29.17:229][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.07-22.29.17:230][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.07-22.29.17:230][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.07-22.29.17:235][  0]LogInit: Computer: JEREMYMARTIN-PC
+[2015.05.07-22.29.17:235][  0]LogInit: User: JeremyMartin
+[2015.05.07-22.29.17:235][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.07-22.29.17:235][  0]LogInit: High frequency timer resolution =2.728144 MHz
+[2015.05.07-22.29.17:235][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.05.07-22.29.17:235][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.07-22.29.17:235][  0]LogMemory: Process Physical Memory: 48.78 MB used, 48.78 MB peak
+[2015.05.07-22.29.17:235][  0]LogMemory: Process Virtual Memory: 30.53 MB used, 30.53 MB peak
+[2015.05.07-22.29.17:235][  0]LogMemory: Physical Memory: 4486.12 MB used, 8097.22 MB total
+[2015.05.07-22.29.17:235][  0]LogMemory: Virtual Memory: 282.68 MB used, 8388608.00 MB total
+[2015.05.07-22.29.17:265][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.05.07-22.29.17:265][  0]LogD3D11RHI: Adapter has 2094MB of dedicated video memory, 0MB of dedicated system memory, and 3792MB of shared system memory, 1 output[s]
+[2015.05.07-22.29.17:265][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.07-22.29.17:271][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.07-22.29.17:282][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.07-22.29.17:321][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.07-22.29.17:371][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.07-22.29.17:371][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.07-22.29.17:473][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.07-22.29.19:604][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.07-22.29.20:102][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.07-22.29.20:152][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.07-22.29.20:189][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Jeremy Martin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.07-22.29.20:189][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jeremy Martin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.07-22.29.20:189][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.07-22.29.20:189][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.07-22.29.20:291][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.07-22.29.20:302][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeremy Martin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.07-22.29.20:548][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.07-22.29.20:548][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.07-22.29.21:024][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.07-22.29.21:106][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.07-22.29.21:847][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.07-22.29.22:036][  0]SourceControl: Info Source control is disabled
+[2015.05.07-22.29.22:036][  0]SourceControl: Info Source control is disabled
+[2015.05.07-22.29.22:036][  0]SourceControl: Info Source control is disabled
+[2015.05.07-22.29.22:036][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.07-22.29.22:036][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.07-22.29.22:044][  0]SourceControl: Info Source control is disabled
+[2015.05.07-22.29.22:220][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.07-22.29.22:220][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.07-22.29.22:295][  0]LogEngine: Initializing Engine...
+[2015.05.07-22.29.24:451][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.05.07-22.29.24:462][  0]LogInit: FAudioDevice initialized.
+[2015.05.07-22.29.24:497][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.07-22.29.24:529][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Jeremy Martin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.07-22.29.24:534][  0]LogInit: Texture streaming: Enabled
+[2015.05.07-22.29.24:617][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.07-22.29.24:617][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.07-22.29.24:617][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.07-22.29.24:617][  0]LogAnalytics: SetUserId 4faf2b8f401686a57575ecb438c58793|93efd1466ca449a7a50c61e21231fb4f|d21d11dd-cad7-4eb6-8377-a86052e53efe
+[2015.05.07-22.29.24:617][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.07-22.29.24:651][  0]LogInit: Transaction tracking system initialized
+[2015.05.07-22.29.24:818][  0]BlueprintLog: New page: Editor Load
+[2015.05.07-22.29.24:846][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2015.05.07-22.29.24:846][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.07-22.29.25:384][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.07-22.29.25:707][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.07-22.29.25:913][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.07-22.29.25:914][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.07-22.29.25:917][  0]LogConsoleResponse:Display: 
+[2015.05.07-22.29.26:016][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.07-22.29.26:131][  0]SourceControl: Info Source control is disabled
+[2015.05.07-22.29.26:131][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.07-22.29.26:132][  0]LightingResults: New page: Lighting Build
+[2015.05.07-22.29.26:142][  0]MapCheck: New page: Map Check
+[2015.05.07-22.29.26:142][  0]LightingResults: New page: Lighting Build
+[2015.05.07-22.29.26:149][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016550C20
+[2015.05.07-22.29.26:495][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.07-22.29.26:496][  0]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.05.07-22.29.26:497][  0]Cmd: MAP CHECKDEP
+[2015.05.07-22.29.26:497][  0]MapCheck: New page: PuzzleExampleMap - May 7, 2015, 12:29:26 PM
+[2015.05.07-22.29.26:558][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.951ms to complete.
+[2015.05.07-22.29.26:558][  0]LogFileHelpers: Loading map 'PuzzleExampleMap' took 0.426
+[2015.05.07-22.29.26:669][  0]LogCollectionManager: Loaded 0 collections in 0.001344 seconds
+[2015.05.07-22.29.26:679][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 1696 classes and 261 folders.
+[2015.05.07-22.29.26:698][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.07-22.29.26:717][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2015.05.07-22.29.26:772][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.07-22.29.26:773][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.07-22.29.26:778][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.07-22.29.26:806][  0]LogLoad: Full Startup: 11.34 seconds (BP compile: 0.10 seconds)
+[2015.05.07-22.29.27:313][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.05.07-22.29.27:843][  1]LogRenderer:Warning: Reallocating scene render targets to support 840x664 (Frame:10).
+[2015.05.07-22.29.29:177][  4]LogAssetRegistry: Asset discovery search completed in 4.3407 seconds
+[2015.05.07-22.34.56:472][ 33]LogRenderer:Warning: Reallocating scene render targets to support 1032x680 (Frame:97).
+[2015.05.07-22.35.20:379][878]LogRenderer:Warning: Reallocating scene render targets to support 1320x680 (Frame:218).
+[2015.05.07-22.35.23:140][962]LogRenderer:Warning: Reallocating scene render targets to support 1688x680 (Frame:231).
+[2015.05.07-22.39.31:191][576]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jeremy Martin/Documents/BlenderFiles/ExportedForBruh.fbx)
+[2015.05.07-22.39.31:286][576]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.05.07-22.39.31:286][576]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2015.05.07-22.39.31:286][576]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.05.07-22.39.31:286][576]LogFbx: ItemName: Model, ItemCount : 70
+[2015.05.07-22.39.31:286][576]LogFbx: ItemName: Pose, ItemCount : 1
+[2015.05.07-22.39.31:286][576]LogFbx: ItemName: Deformer, ItemCount : 69
+[2015.05.07-22.39.31:286][576]LogFbx: ItemName: Material, ItemCount : 1
+[2015.05.07-22.44.42:912][576]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy Martin/Documents/BlenderFiles/ExportedForBruh.fbx
+[2015.05.07-22.44.42:966][576]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.07-22.44.42:972][576]LogFbx: =================================================
+[2015.05.07-22.44.42:972][576]LogFbx: Dumping Node START [Rocket_Mannequin_Mesh] 
+[2015.05.07-22.44.42:972][576]LogFbx: 	Total Deformer Count 688909632.
+[2015.05.07-22.44.42:972][576]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.05.07-22.44.42:972][576]LogFbx: =================================================
+[2015.05.07-22.44.42:972][576]LogFbx: 	Attribute (Untitled) Type (4).
+[2015.05.07-22.44.42:972][576]LogFbx: 		[Node Attribute Child 1] Rocket_Mannequin_Mesh (Type Mesh).
+[2015.05.07-22.44.42:972][576]LogFbx: Dumping Node END [Rocket_Mannequin_Mesh]
+[2015.05.07-22.44.42:973][576]LogFbx: =================================================
+[2015.05.07-22.44.42:973][576]LogFbx: Dumping Node START [Rocket_Mannequin_Mesh] 
+[2015.05.07-22.44.42:973][576]LogFbx: 	Total Deformer Count 688909632.
+[2015.05.07-22.44.42:973][576]LogFbx: 		[Node 1] Armature (Type Skin).
+[2015.05.07-22.44.42:973][576]LogFbx: =================================================
+[2015.05.07-22.44.42:973][576]LogFbx: 	Attribute (Untitled) Type (4).
+[2015.05.07-22.44.42:973][576]LogFbx: 		[Node Attribute Child 1] Rocket_Mannequin_Mesh (Type Mesh).
+[2015.05.07-22.44.42:973][576]LogFbx: Dumping Node END [Rocket_Mannequin_Mesh]
+[2015.05.07-22.44.42:975][576]LogFbx:Warning: Not valid bind pose for Pose (Untitled) - Node Rocket_Mannequin_Mesh : The relative matrices do not match
+[2015.05.07-22.44.42:975][576]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2015.05.07-22.44.42:976][576]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Rocket_Mannequin_Mesh
+[2015.05.07-22.44.42:976][576]LogFbx:Warning: Recreating bind pose succeeded.
+[2015.05.07-22.44.42:995][576]LogLinker:Warning: Can't find file '/Game/M_Template_Master'
+[2015.05.07-22.44.42:995][576]LogLinker:Warning: Can't find file '/Game/M_Template_Master'
+[2015.05.07-22.44.42:995][576]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/M_Template_Master.M_Template_Master'
+[2015.05.07-22.44.43:013][576]LogMaterial: Missing cached shader map for material M_Template_Master, compiling. 
+[2015.05.07-22.44.43:050][576]LogFbx:Warning: Bones digested - 68  Depth of hierarchy - 12
+[2015.05.07-22.44.43:118][576]LogSkeletalMesh: Chunk 0: 3658 rigid vertices, 257 soft vertices, 52 active bones
+[2015.05.07-22.44.43:122][576]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 6118 triangles
+[2015.05.07-22.44.43:124][576]LogLinker:Warning: Can't find file '/Game/ExportedForBruh_PhysicsAsset'
+[2015.05.07-22.44.43:124][576]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/ExportedForBruh_PhysicsAsset.ExportedForBruh_PhysicsAsset'
+[2015.05.07-22.44.43:125][576]LogLinker:Warning: Can't find file '/Game/ExportedForBruh_Skeleton'
+[2015.05.07-22.44.43:126][576]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/ExportedForBruh_Skeleton.ExportedForBruh_Skeleton'
+[2015.05.07-22.44.43:154][576]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.07-22.44.43:154][576]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.07-22.44.43:343][577]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.07-22.44.43:573][577]LogSavePackage: Save=133.244431ms
+[2015.05.07-22.44.43:573][577]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/PuzzleExampleMap_Auto1250635E84B95A1968F82E981B453B2A2.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto1.umap'
+[2015.05.07-22.44.43:579][577]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.236
+[2015.05.07-22.44.43:579][577]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.236
+[2015.05.07-22.44.43:615][577]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ExportedForBruh] ([1] browsable assets)...
+[2015.05.07-22.44.43:635][577]LogMaterial:Warning: Material /Game/M_Template_Master.M_Template_Master needed to have new flag set bUsedWithSkeletalMesh !
+[2015.05.07-22.44.43:646][577]LogMaterial: Missing cached shader map for material M_Template_Master, compiling. 
+[2015.05.07-22.44.43:659][577]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.07-22.44.43:797][577]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/ExportedForBruh.ExportedForBruh]
+[2015.05.07-22.44.43:798][577]OBJ SavePackage: Finished generating thumbnails for package [/Game/ExportedForBruh]
+[2015.05.07-22.44.44:128][577]LogSavePackage: Save=327.568848ms
+[2015.05.07-22.44.44:128][577]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/ExportedForBruh_Auto1A51B0C90451716F18A567E92E01C97E3.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Autosaves/Game/ExportedForBruh_Auto1.uasset'
+[2015.05.07-22.44.44:166][577]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M_Template_Master] ([1] browsable assets)...
+[2015.05.07-22.44.49:448][577]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M_Template_Master.M_Template_Master]
+[2015.05.07-22.44.49:448][577]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_Template_Master]
+[2015.05.07-22.44.49:892][577]LogSavePackage: Save=441.178314ms
+[2015.05.07-22.44.49:893][577]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/M_Template_Master_Auto128E57CC04EC2BC131B8833ABB2B8B4B1.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Autosaves/Game/M_Template_Master_Auto1.uasset'
+[2015.05.07-22.44.49:931][577]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ExportedForBruh_PhysicsAsset] ([1] browsable assets)...
+[2015.05.07-22.44.49:931][577]OBJ SavePackage: Finished generating thumbnails for package [/Game/ExportedForBruh_PhysicsAsset]
+[2015.05.07-22.44.50:019][577]LogSavePackage: Save=75.288551ms
+[2015.05.07-22.44.50:019][577]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/ExportedForBruh_PhysicsAsset_Auto12DBA11464A224798373717AC327E3530.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Autosaves/Game/ExportedForBruh_PhysicsAsset_Auto1.uasset'
+[2015.05.07-22.44.50:057][577]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ExportedForBruh_Skeleton] ([1] browsable assets)...
+[2015.05.07-22.44.50:057][577]OBJ SavePackage: Finished generating thumbnails for package [/Game/ExportedForBruh_Skeleton]
+[2015.05.07-22.44.50:141][577]LogSavePackage: Save=63.819580ms
+[2015.05.07-22.44.50:142][577]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/ExportedForBruh_Skeleton_Auto1573FB47C4986732CBF36DF873AB2C16C.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Autosaves/Game/ExportedForBruh_Skeleton_Auto1.uasset'
+[2015.05.07-22.44.50:148][577]LogFileHelpers: Auto-saving content packages took 6.569
+[2015.05.07-22.44.50:161][578]LogHttp:Warning: Timeout processing Http request. 00000000290B0B80 url=http://et2.epicgames.com/ET2/CollectData.1?SessionID=%7BAB7C2827-47DF-5056-71B4-DE8E3C748412%7D&AppID=Rocket.Release&AppVersion=4.7.6-2513093%2B%2B%2Bdepot%2BUE4-Releases%2B4.7&UserID=4faf2b8f401686a57575ecb438c58793%7C93efd1466ca449a7a50c61e21231fb4f%7Cd21d11dd-cad7-4eb6-8377-a86052e53efe&IsEditor=1
+[2015.05.07-22.44.50:162][578]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 00000000290B0B80. 
+[2015.05.07-22.44.50:162][578]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 00000000290B0B80. 
+[2015.05.07-22.44.50:162][578]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 00000000290B0B80. 
+[2015.05.07-22.49.04:535][789]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jeremy Martin/Documents/BlenderFiles/cup.fbx)
+[2015.05.07-22.49.04:540][789]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.05.07-22.49.04:540][789]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.05.07-22.49.04:540][789]LogFbx: ItemName: Model, ItemCount : 1
+[2015.05.07-22.49.04:540][789]LogFbx: ItemName: Material, ItemCount : 1
+[2015.05.07-22.49.20:399][789]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy Martin/Documents/BlenderFiles/cup.fbx
+[2015.05.07-22.49.20:443][789]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.07-22.49.20:445][789]LogFbx: =================================================
+[2015.05.07-22.49.20:445][789]LogFbx: Dumping Node START [Cylinder] 
+[2015.05.07-22.49.20:445][789]LogFbx: 	Total Deformer Count 519339864.
+[2015.05.07-22.49.20:445][789]LogFbx: 	Attribute (Mesh) Type (4).
+[2015.05.07-22.49.20:446][789]LogFbx: 		[Node Attribute Child 1] Cylinder (Type Mesh).
+[2015.05.07-22.49.20:446][789]LogFbx: Dumping Node END [Cylinder]
+[2015.05.07-22.49.20:446][789]LogFbx: =================================================
+[2015.05.07-22.49.20:446][789]LogFbx: Dumping Node START [Cylinder] 
+[2015.05.07-22.49.20:446][789]LogFbx: 	Total Deformer Count 519335104.
+[2015.05.07-22.49.20:446][789]LogFbx: 	Attribute (Mesh) Type (4).
+[2015.05.07-22.49.20:446][789]LogFbx: 		[Node Attribute Child 1] Cylinder (Type Mesh).
+[2015.05.07-22.49.20:446][789]LogFbx: Dumping Node END [Cylinder]
+[2015.05.07-22.49.20:452][789]LogLinker:Warning: Can't find file '/Game/Material'
+[2015.05.07-22.49.20:453][789]LogLinker:Warning: Can't find file '/Game/Material'
+[2015.05.07-22.49.20:453][789]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Material.Material'
+[2015.05.07-22.49.20:493][789]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.05.07-22.49.20:501][789]LogFbx: Triangulating skeletal mesh Cylinder
+[2015.05.07-22.49.32:501][789]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2015.05.07-22.49.35:923][789]LogSkeletalMesh: Chunk 0: 56567 rigid vertices, 0 soft vertices, 1 active bones
+[2015.05.07-22.49.36:097][789]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 111797 triangles
+[2015.05.07-22.49.36:113][789]LogLinker:Warning: Can't find file '/Game/cup_PhysicsAsset'
+[2015.05.07-22.49.36:113][789]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/cup_PhysicsAsset.cup_PhysicsAsset'
+[2015.05.07-22.49.36:127][789]LogLinker:Warning: Can't find file '/Game/cup_Skeleton'
+[2015.05.07-22.49.36:127][789]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/cup_Skeleton.cup_Skeleton'
+[2015.05.07-22.49.36:136][789]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.05.07-22.49.36:136][789]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2015.05.07-22.49.36:137][789]FBXImport:Warning: Warning Mesh 'Cylinder' has no UV set. Creating a default set. 
+[2015.05.07-22.49.36:153][789]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.07-22.49.36:153][789]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.07-22.49.36:263][790]LogMaterial:Warning: Material /Game/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2015.05.07-22.49.36:297][790]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.05.07-22.49.36:310][790]LogMaterial: 0.000124 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.07-22.50.23:682][414]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (cup)
+[2015.05.07-22.50.31:147][501]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (ExportedForBruh)
+[2015.05.07-22.50.32:989][524]Cmd: DELETE
+[2015.05.07-22.50.32:989][524]Cmd: ACTOR DELETE
+[2015.05.07-22.50.33:009][524]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2015.05.07-22.50.33:010][524]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.07-22.50.33:079][524]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2015.05.07-22.50.34:998][548]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (cup)
+[2015.05.07-22.51.23:959][131]LogEditorViewport: Clicking on Actor (LMB): light_sucker_C (light_sucker)
+[2015.05.07-22.51.26:079][158]Cmd: DELETE
+[2015.05.07-22.51.26:079][158]Cmd: ACTOR DELETE
+[2015.05.07-22.51.26:083][158]LogEditorActor: Deleted Actor: light_sucker_C
+[2015.05.07-22.51.26:094][158]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2015.05.07-22.54.25:549][975]LogSavePackage: Save=137.073044ms
+[2015.05.07-22.54.25:549][975]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/PuzzleExampleMap010493B34B26242B21A705B7BF26058F.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.05.07-22.54.30:358][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/cup" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/cup.uasset" SILENT=true
+[2015.05.07-22.54.30:738][  0]LogSavePackage: Save=378.416962ms
+[2015.05.07-22.54.30:738][  0]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/cup00F0A62B465F218C499D6AB2FC9E4DAF.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/cup.uasset'
+[2015.05.07-22.54.30:745][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/cup_PhysicsAsset" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/cup_PhysicsAsset.uasset" SILENT=true
+[2015.05.07-22.54.30:758][  0]LogSavePackage: Save=2.399067ms
+[2015.05.07-22.54.30:758][  0]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/cup_PhysicsAsset66D044434EED6F8000D1ED823721F41F.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/cup_PhysicsAsset.uasset'
+[2015.05.07-22.54.30:764][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/cup_Skeleton" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/cup_Skeleton.uasset" SILENT=true
+[2015.05.07-22.54.30:770][  0]LogSavePackage: Save=2.049012ms
+[2015.05.07-22.54.30:770][  0]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/cup_Skeleton4813D99845C30FABC2771896FAE34B30.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/cup_Skeleton.uasset'
+[2015.05.07-22.54.30:812][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExportedForBruh" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/ExportedForBruh.uasset" SILENT=true
+[2015.05.07-22.54.31:106][  0]LogSavePackage: Save=292.504730ms
+[2015.05.07-22.54.31:106][  0]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/ExportedForBruhE3C3A9E84201B925E97156A191C5D5FF.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/ExportedForBruh.uasset'
+[2015.05.07-22.54.31:113][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExportedForBruh_PhysicsAsset" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/ExportedForBruh_PhysicsAsset.uasset" SILENT=true
+[2015.05.07-22.54.31:123][  0]LogSavePackage: Save=8.381889ms
+[2015.05.07-22.54.31:123][  0]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/ExportedForBruh_PhysicsAsset3896EDA649C9D2C323F6DEAA02EDB614.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/ExportedForBruh_PhysicsAsset.uasset'
+[2015.05.07-22.54.31:130][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExportedForBruh_Skeleton" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/ExportedForBruh_Skeleton.uasset" SILENT=true
+[2015.05.07-22.54.31:133][  0]LogSavePackage: Save=1.914855ms
+[2015.05.07-22.54.31:133][  0]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/ExportedForBruh_Skeleton053C979340B0F80EB8854F999A0624EC.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/ExportedForBruh_Skeleton.uasset'
+[2015.05.07-22.54.31:173][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Template_Master" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/M_Template_Master.uasset" SILENT=true
+[2015.05.07-22.54.31:566][  0]LogSavePackage: Save=391.767090ms
+[2015.05.07-22.54.31:567][  0]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/M_Template_Master016E63A04B6E0F0F1DBB47880968AE02.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/M_Template_Master.uasset'
+[2015.05.07-22.54.31:621][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Material.uasset" SILENT=true
+[2015.05.07-22.54.32:020][  0]LogSavePackage: Save=398.053772ms
+[2015.05.07-22.54.32:020][  0]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/MaterialFF5162944A013614D080B8B157905440.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Material.uasset'
+[2015.05.07-22.54.32:475][  1]Cmd: QUIT_EDITOR
+[2015.05.07-22.54.32:750][  1]LogExit: Preparing to exit.
+[2015.05.07-22.54.32:958][  1]LogExit: Editor shut down
+[2015.05.07-22.54.32:958][  1]LogExit: Transaction tracking system shut down
+[2015.05.07-22.54.32:959][  1]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E5EA700
+[2015.05.07-22.54.32:959][  1]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D9496C0
+[2015.05.07-22.54.32:959][  1]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013C80EA0
+[2015.05.07-22.54.32:959][  1]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023E0B920
+[2015.05.07-22.54.32:959][  1]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023E0AA20
+[2015.05.07-22.54.32:994][  1]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002406F060
+[2015.05.07-22.54.32:994][  1]LogExit: Object subsystem successfully closed.
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.07-22.54.33:037][  1]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.07-22.54.33:854][  1]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.07-22.54.33:854][  1]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.07-22.54.33:854][  1]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.07-22.54.33:854][  1]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.07-22.54.33:854][  1]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.07-22.54.33:854][  1]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.07-22.54.33:854][  1]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.07-22.54.33:854][  1]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.07-22.54.33:854][  1]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.07-22.54.33:855][  1]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.07-22.54.33:855][  1]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.07-22.54.33:855][  1]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.07-22.54.33:855][  1]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.07-22.54.33:855][  1]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.07-22.54.33:855][  1]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.07-22.54.33:855][  1]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.07-22.54.33:855][  1]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.07-22.54.33:855][  1]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.07-22.54.33:855][  1]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.07-22.54.33:908][  1]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.07-22.54.33:908][  1]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.07-22.54.33:908][  1]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.07-22.54.33:909][  1]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.07-22.54.34:083][  1]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.07-22.54.34:084][  1]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.07-22.54.34:084][  1]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.07-22.54.34:084][  1]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.07-22.54.34:084][  1]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.07-22.54.34:084][  1]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.07-22.54.34:084][  1]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.07-22.54.34:084][  1]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.07-22.54.34:084][  1]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.07-22.54.34:085][  1]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.07-22.54.34:085][  1]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.07-22.54.34:185][  1]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.07-22.54.34:185][  1]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.07-22.54.34:187][  1]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.07-22.54.34:187][  1]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.07-22.54.34:187][  1]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.07-22.54.34:187][  1]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.07-22.54.34:188][  1]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.07-22.54.34:188][  1]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.07-22.54.34:188][  1]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.07-22.54.34:188][  1]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.07-22.54.34:188][  1]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.07-22.54.34:188][  1]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.07-22.54.34:188][  1]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.07-22.54.34:188][  1]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.07-22.54.34:188][  1]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.07-22.54.34:188][  1]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.07-22.54.34:188][  1]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.07-22.54.34:192][  1]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.07-22.54.34:192][  1]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.07-22.54.34:192][  1]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.07-22.54.34:192][  1]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.07-22.54.34:192][  1]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.07-22.54.34:192][  1]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.07-22.54.34:192][  1]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.07-22.54.34:192][  1]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.07-22.54.34:192][  1]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.07-22.54.34:192][  1]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.07-22.54.34:209][  1]LogDerivedDataCache: Shutdown
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.07-22.54.34:209][  1]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.07-22.54.34:211][  1]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.07-22.54.34:211][  1]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.07-22.54.34:211][  1]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.07-22.54.34:211][  1]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.07-22.54.34:211][  1]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.07-22.54.34:211][  1]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.07-22.54.34:211][  1]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.07-22.54.34:211][  1]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.07-22.54.34:211][  1]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.07-22.54.34:211][  1]LogExit: Exiting.
+[2015.05.07-22.54.34:234][  1]Log file closed, 05/07/15 17:54:34
