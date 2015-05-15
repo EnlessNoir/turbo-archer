@@ -1,0 +1,655 @@
+﻿Log file open, 05/11/15 08:46:35
+LogInit:Display: Running engine for game: ENPo
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.11-13.46.35:826][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.11-13.46.35:876][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.11-13.46.35:947][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.11-13.46.35:955][  0]LogInit: Object subsystem initialized
+[2015.05.11-13.46.36:006][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.11-13.46.36:006][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.11-13.46.36:006][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.11-13.46.36:006][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.11-13.46.36:006][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.11-13.46.36:006][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.11-13.46.36:008][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.11-13.46.36:008][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.11-13.46.36:055][  0]LogInit: Computer: JEREMYMARTIN-PC
+[2015.05.11-13.46.36:055][  0]LogInit: User: JeremyMartin
+[2015.05.11-13.46.36:055][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.11-13.46.36:055][  0]LogInit: High frequency timer resolution =2.728212 MHz
+[2015.05.11-13.46.36:056][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.05.11-13.46.36:056][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-13.46.36:056][  0]LogMemory: Process Physical Memory: 48.66 MB used, 48.66 MB peak
+[2015.05.11-13.46.36:056][  0]LogMemory: Process Virtual Memory: 28.45 MB used, 28.45 MB peak
+[2015.05.11-13.46.36:056][  0]LogMemory: Physical Memory: 3777.11 MB used, 8097.22 MB total
+[2015.05.11-13.46.36:056][  0]LogMemory: Virtual Memory: 280.62 MB used, 8388608.00 MB total
+[2015.05.11-13.46.36:121][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.05.11-13.46.36:121][  0]LogD3D11RHI: Adapter has 2094MB of dedicated video memory, 0MB of dedicated system memory, and 3792MB of shared system memory, 1 output[s]
+[2015.05.11-13.46.36:121][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.11-13.46.36:126][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.11-13.46.36:137][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.11-13.46.36:834][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.11-13.46.36:959][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.11-13.46.36:959][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.11-13.46.37:033][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.11-13.46.40:973][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.11-13.46.41:986][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.11-13.46.42:070][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.11-13.46.42:622][  0]LogDerivedDataCache: Loaded boot cache 0.55s 39MB C:/Users/Jeremy Martin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.11-13.46.42:622][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jeremy Martin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.11-13.46.42:622][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.11-13.46.42:622][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.11-13.46.42:790][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.11-13.46.42:801][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeremy Martin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.11-13.46.49:211][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.11-13.46.49:211][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.11-13.46.50:967][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.11-13.46.51:127][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.11-13.47.10:021][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.11-13.47.10:335][  0]SourceControl: Info Source control is disabled
+[2015.05.11-13.47.10:336][  0]SourceControl: Info Source control is disabled
+[2015.05.11-13.47.10:336][  0]SourceControl: Info Source control is disabled
+[2015.05.11-13.47.10:336][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.11-13.47.10:336][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.11-13.47.10:343][  0]SourceControl: Info Source control is disabled
+[2015.05.11-13.47.10:805][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.11-13.47.10:805][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.11-13.47.11:061][  0]LogEngine: Initializing Engine...
+[2015.05.11-13.47.13:644][  0]LogInit: XAudio2 using 'Headset Earphone (Razer Kraken 7.1 Chroma)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.05.11-13.47.13:666][  0]LogInit: FAudioDevice initialized.
+[2015.05.11-13.47.13:798][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.11-13.47.13:858][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/Jeremy Martin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.11-13.47.13:861][  0]LogInit: Texture streaming: Enabled
+[2015.05.11-13.47.14:384][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.11-13.47.14:384][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.11-13.47.14:384][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.11-13.47.14:384][  0]LogAnalytics: SetUserId 4faf2b8f401686a57575ecb438c58793|93efd1466ca449a7a50c61e21231fb4f|d21d11dd-cad7-4eb6-8377-a86052e53efe
+[2015.05.11-13.47.14:384][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.11-13.47.14:467][  0]LogInit: Transaction tracking system initialized
+[2015.05.11-13.47.14:729][  0]BlueprintLog: New page: Editor Load
+[2015.05.11-13.47.14:774][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.05.11-13.47.14:774][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.11-13.47.15:713][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.11-13.47.16:048][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.11-13.47.16:467][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.11-13.47.16:467][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.11-13.47.16:619][  0]LogConsoleResponse:Display: 
+[2015.05.11-13.47.19:090][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.11-13.47.19:906][  0]SourceControl: Info Source control is disabled
+[2015.05.11-13.47.19:912][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.11-13.47.19:999][  0]LightingResults: New page: Lighting Build
+[2015.05.11-13.47.20:029][  0]MapCheck: New page: Map Check
+[2015.05.11-13.47.20:029][  0]LightingResults: New page: Lighting Build
+[2015.05.11-13.47.20:035][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000041F4C20
+[2015.05.11-13.47.25:936][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.11-13.47.25:952][  0]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.05.11-13.47.25:970][  0]Cmd: MAP CHECKDEP
+[2015.05.11-13.47.25:971][  0]MapCheck: New page: PuzzleExampleMap - May 11, 2015, 3:47:25 AM
+[2015.05.11-13.47.26:051][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.315ms to complete.
+[2015.05.11-13.47.26:051][  0]LogFileHelpers: Loading map 'PuzzleExampleMap' took 6.139
+[2015.05.11-13.47.26:367][  0]LogCollectionManager: Loaded 0 collections in 0.001451 seconds
+[2015.05.11-13.47.26:401][  0]LogContentBrowser: Native class hierarchy populated in 0.0231 seconds. Added 1696 classes and 261 folders.
+[2015.05.11-13.47.26:466][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.11-13.47.26:484][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2015.05.11-13.47.26:751][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.11-13.47.26:754][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.11-13.47.26:785][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.11-13.47.26:863][  0]LogLoad: Full Startup: 57.10 seconds (BP compile: 0.10 seconds)
+[2015.05.11-13.47.27:605][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.05.11-13.47.28:404][  0]LogRenderer:Warning: Reallocating scene render targets to support 1216x680 (Frame:11).
+[2015.05.11-13.47.30:004][  4]LogAssetRegistry: Asset discovery search completed in 15.2392 seconds
+[2015.05.11-13.49.53:741][564]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.11-13.49.53:741][564]LogPlayLevel: [PIE] Compiling PuzzleExampleMap before PIE...
+[2015.05.11-13.49.53:896][564]LogPlayLevel: PIE:  Blueprint regeneration took 154 ms (1 blueprints)
+[2015.05.11-13.49.53:897][564]PIE: New page: PIE session: PuzzleExampleMap (May 11, 2015, 3:49:53 AM)
+[2015.05.11-13.49.53:920][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022283s)
+[2015.05.11-13.49.53:921][564]LogPlayLevel: PIE: World Init took: (0.000483s)
+[2015.05.11-13.49.53:921][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.022962s)
+[2015.05.11-13.49.54:037][564]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.05.11-13.49.54:091][564]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.05.11-13.49.54:099][564]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2015.05.11-08.49.54
+[2015.05.11-13.49.54:145][564]LogWorld: Bringing up level for play took: 0.053371
+[2015.05.11-13.49.54:224][564]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.32
+[2015.05.11-13.49.56:607][586]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020A9F1A0
+[2015.05.11-13.50.03:393][625]LightingResults: New page: Lighting Build
+[2015.05.11-13.50.03:395][625]MapCheck: New page: Map Check
+[2015.05.11-13.50.03:395][625]LightingResults: New page: Lighting Build
+[2015.05.11-13.50.03:408][625]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E50A160
+[2015.05.11-13.50.03:412][625]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.11-13.50.03:464][625]LoadErrors: New page: New Map
+[2015.05.11-13.50.52:798][911]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.05.11-13.50.52:799][911]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.05.11-13.50.52:800][911]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.05.11-13.50.52:800][911]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.05.11-13.50.52:800][911]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.05.11-13.50.52:800][911]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.05.11-13.51.53:774][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu_map" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Maps/Menu_map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.11-13.51.53:814][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.11-13.51.53:814][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.05.11-13.51.53:863][243]LogSavePackage: Save=6.510125ms
+[2015.05.11-13.51.53:863][243]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Menu_map0D27A2FE4AC18490A0A5A49C01469FFF.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Maps/Menu_map.umap'
+[2015.05.11-13.51.53:952][243]LogFileHelpers: Saving map 'Menu_map' took 2.373
+[2015.05.11-13.51.58:322][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Menu" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Blueprints/Menu.uasset" SILENT=true
+[2015.05.11-13.51.58:338][405]LogSavePackage: Save=6.167409ms
+[2015.05.11-13.51.58:338][405]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/MenuE7B7AEFC4E64C157AEABEF9DFAB62253.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Blueprints/Menu.uasset'
+[2015.05.11-13.53.23:563][729]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.05.11-13.53.32:350][914]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.11-13.53.32:373][914]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000289925C0
+[2015.05.11-13.53.54:404][228]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.11-13.54.19:564][848]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.11-13.54.19:587][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Start_Menu" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Start_Menu.uasset" SILENT=true
+[2015.05.11-13.54.19:594][848]LogSavePackage: Save=5.775578ms
+[2015.05.11-13.54.19:594][848]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Start_Menu57AD86AC463AB20EA24470BB7D94466D.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Start_Menu.uasset'
+[2015.05.11-13.54.19:597][848]LogMetaData: Removing '/Game/Start_Menu.SKEL_Start_Menu_C' ref from Metadata '/Game/Menu.PackageMetaData'
+[2015.05.11-13.54.19:597][848]LogMetaData: Removing '/Game/Start_Menu.Start_Menu_C' ref from Metadata '/Game/Menu.PackageMetaData'
+[2015.05.11-13.54.19:597][848]LogMetaData: Removing '/Game/Start_Menu.Start_Menu:EventGraph.K2Node_Event_134' ref from Metadata '/Game/Menu.PackageMetaData'
+[2015.05.11-13.54.19:598][848]LogMetaData: Removing '/Game/Start_Menu.Start_Menu:EventGraph.K2Node_Event_135' ref from Metadata '/Game/Menu.PackageMetaData'
+[2015.05.11-13.54.19:659][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Start_Menu" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Start_Menu.uasset" SILENT=true
+[2015.05.11-13.54.19:802][848]LogSavePackage: Save=6.798225ms
+[2015.05.11-13.54.19:802][848]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Start_Menu9A4408AB440BBB3AE7BFA087AE5CF03C.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Start_Menu.uasset'
+[2015.05.11-13.57.28:808][276]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.11-13.57.28:808][276]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.11-13.57.28:810][276]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_23.CanvasPanel_0
+[2015.05.11-13.57.28:810][276]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.SKEL_Start_Menu_C:WidgetTree_22.CanvasPanel_0
+[2015.05.11-13.57.28:810][276]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_7:WidgetTree_18.CanvasPanel_0
+[2015.05.11-13.57.28:810][276]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_3.WidgetTree_20.CanvasPanel_0
+[2015.05.11-13.57.28:810][276]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_19.CanvasPanel_0
+[2015.05.11-13.57.28:810][276]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.SKEL_Start_Menu_C:WidgetTree_18.CanvasPanel_0
+[2015.05.11-13.57.28:810][276]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_6:WidgetTree_14.CanvasPanel_0
+[2015.05.11-13.57.28:810][276]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_2.WidgetTree_16.CanvasPanel_0
+[2015.05.11-13.57.28:810][276]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_15.CanvasPanel_0
+[2015.05.11-13.57.28:810][276]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_1.WidgetTree_13.CanvasPanel_0
+[2015.05.11-13.57.28:810][276]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_12.CanvasPanel_0
+[2015.05.11-13.57.28:810][276]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_0.WidgetTree_11.CanvasPanel_0
+[2015.05.11-13.57.28:810][276]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_10.CanvasPanel_0
+[2015.05.11-13.57.28:810][276]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu:WidgetTree_1.CanvasPanel_0
+[2015.05.11-13.57.28:810][276]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0.CanvasPanelSlot_199) from referencer (Button /Engine/UMG/Editor/Transient.Button_85).  Import failed...
+[2015.05.11-13.57.28:810][276]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_199''
+[2015.05.11-13.58.42:704][673]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.11-13.58.42:704][673]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_47.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.SKEL_Start_Menu_C:WidgetTree_46.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_16:WidgetTree_42.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_9.WidgetTree_44.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_43.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.SKEL_Start_Menu_C:WidgetTree_42.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_14:WidgetTree_38.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_8.WidgetTree_40.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_39.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_12:WidgetTree_34.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_7.WidgetTree_36.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_35.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_10:WidgetTree_30.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_6.WidgetTree_32.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_31.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_9:WidgetTree_26.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_5.WidgetTree_28.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_27.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_8:WidgetTree_22.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_23.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_7:WidgetTree_18.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_3.WidgetTree_20.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_19.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_6:WidgetTree_14.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_2.WidgetTree_16.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_15.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_1.WidgetTree_13.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_12.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_0.WidgetTree_11.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_10.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu:WidgetTree_1.CanvasPanel_0
+[2015.05.11-13.58.42:705][673]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0.CanvasPanelSlot_795) from referencer (Button /Engine/UMG/Editor/Transient.Button_85).  Import failed...
+[2015.05.11-13.58.42:705][673]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_795''
+[2015.05.11-13.58.51:792][168]Cmd: TRANSACTION UNDO
+[2015.05.11-13.58.51:792][168]LogEditorTransaction: Undo Move Widget
+[2015.05.11-13.58.58:297][540]Cmd: TRANSACTION UNDO
+[2015.05.11-13.58.58:297][540]LogEditorTransaction: Undo Paste clipboard contents
+[2015.05.11-13.59.07:109][ 45]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.11-13.59.07:109][ 45]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_65.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.SKEL_Start_Menu_C:WidgetTree_64.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_24:WidgetTree_58.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_13.WidgetTree_60.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_59.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.SKEL_Start_Menu_C:WidgetTree_58.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_22:WidgetTree_54.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_12.WidgetTree_56.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_55.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_20:WidgetTree_50.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_11.WidgetTree_52.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_51.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_18:WidgetTree_46.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_47.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_16:WidgetTree_42.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_9.WidgetTree_44.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_43.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_14:WidgetTree_38.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_8.WidgetTree_40.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_39.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_12:WidgetTree_34.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_7.WidgetTree_36.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_35.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_10:WidgetTree_30.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_6.WidgetTree_32.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_31.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_9:WidgetTree_26.CanvasPanel_0
+[2015.05.11-13.59.07:110][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_5.WidgetTree_28.CanvasPanel_0
+[2015.05.11-13.59.07:111][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_27.CanvasPanel_0
+[2015.05.11-13.59.07:111][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_8:WidgetTree_22.CanvasPanel_0
+[2015.05.11-13.59.07:111][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_4.WidgetTree_24.CanvasPanel_0
+[2015.05.11-13.59.07:111][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_23.CanvasPanel_0
+[2015.05.11-13.59.07:111][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_7:WidgetTree_18.CanvasPanel_0
+[2015.05.11-13.59.07:111][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_3.WidgetTree_20.CanvasPanel_0
+[2015.05.11-13.59.07:111][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_19.CanvasPanel_0
+[2015.05.11-13.59.07:111][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_Start_Menu_C_6:WidgetTree_14.CanvasPanel_0
+[2015.05.11-13.59.07:111][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_2.WidgetTree_16.CanvasPanel_0
+[2015.05.11-13.59.07:111][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_15.CanvasPanel_0
+[2015.05.11-13.59.07:111][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_1.WidgetTree_13.CanvasPanel_0
+[2015.05.11-13.59.07:111][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_12.CanvasPanel_0
+[2015.05.11-13.59.07:111][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:Start_Menu_C_0.WidgetTree_11.CanvasPanel_0
+[2015.05.11-13.59.07:111][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu_C:WidgetTree_10.CanvasPanel_0
+[2015.05.11-13.59.07:111][ 45]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0 or CanvasPanel /Game/Start_Menu.Start_Menu:WidgetTree_1.CanvasPanel_0
+[2015.05.11-13.59.07:111][ 45]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_7:Start_Menu_C_14.WidgetTree_66.CanvasPanel_0.CanvasPanelSlot_795) from referencer (Button /Engine/UMG/Editor/Transient.Button_85).  Import failed...
+[2015.05.11-13.59.07:111][ 45]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_795''
+[2015.05.11-14.01.42:085][278]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Menu_map' took 0.025
+[2015.05.11-14.01.42:122][278]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Start_Menu] ([1] browsable assets)...
+[2015.05.11-14.01.42:131][278]OBJ SavePackage: Finished generating thumbnails for package [/Game/Start_Menu]
+[2015.05.11-14.01.42:134][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Start_Menu" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Autosaves/Game/Start_Menu_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.05.11-14.01.42:235][278]LogSavePackage: Save=69.308762ms
+[2015.05.11-14.01.42:236][278]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Start_Menu_Auto1B85ACB44410D6DB79897B4A93210999A.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Autosaves/Game/Start_Menu_Auto1.uasset'
+[2015.05.11-14.01.42:245][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Autosaves/Game/Menu_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.05.11-14.01.42:296][278]LogSavePackage: Save=49.820175ms
+[2015.05.11-14.01.42:296][278]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Menu_Auto175702CBA43631A338A9F64BAB654252A.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Autosaves/Game/Menu_Auto1.uasset'
+[2015.05.11-14.01.42:302][278]LogFileHelpers: Auto-saving content packages took 0.217
+[2015.05.11-14.04.53:571][630]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.11-14.04.53:571][630]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.11-14.04.53:571][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Game/Start_Menu.Start_Menu_C:WidgetTree_92.Button_85
+[2015.05.11-14.04.53:571][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Game/Start_Menu.SKEL_Start_Menu_C:WidgetTree_91.Button_85
+[2015.05.11-14.04.53:571][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or ObjectProperty /Game/Start_Menu.SKEL_Start_Menu_C:Button_85
+[2015.05.11-14.04.53:571][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Engine/Transient.REINST_SKEL_Start_Menu_C_36:WidgetTree_87.Button_85
+[2015.05.11-14.04.53:572][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or ObjectProperty /Engine/Transient.REINST_SKEL_Start_Menu_C_36:Button_85
+[2015.05.11-14.04.53:572][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Engine/Transient.World_7:Start_Menu_C_20.WidgetTree_89.Button_85
+[2015.05.11-14.04.53:572][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Game/Start_Menu.Start_Menu_C:WidgetTree_88.Button_85
+[2015.05.11-14.04.53:572][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Game/Start_Menu.SKEL_Start_Menu_C:WidgetTree_87.Button_85
+[2015.05.11-14.04.53:572][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Engine/Transient.REINST_SKEL_Start_Menu_C_35:WidgetTree_84.Button_85
+[2015.05.11-14.04.53:572][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or ObjectProperty /Engine/Transient.REINST_SKEL_Start_Menu_C_35:Button_85
+[2015.05.11-14.04.53:572][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Engine/Transient.World_7:Start_Menu_C_19.WidgetTree_86.Button_85
+[2015.05.11-14.04.53:572][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Game/Start_Menu.Start_Menu_C:WidgetTree_85.Button_85
+[2015.05.11-14.04.53:572][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Engine/Transient.World_7:Start_Menu_C_18.WidgetTree_82.Button_85
+[2015.05.11-14.04.53:572][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Engine/Transient.World_7:Start_Menu_C_15.WidgetTree_70.Button_85
+[2015.05.11-14.04.53:572][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Game/Start_Menu.Start_Menu_C:WidgetTree_69.Button_85
+[2015.05.11-14.04.53:572][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Engine/Transient.World_7:Start_Menu_C_10.WidgetTree_48.Button_85
+[2015.05.11-14.04.53:572][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Game/Start_Menu.Start_Menu_C:WidgetTree_47.Button_85
+[2015.05.11-14.04.53:572][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Engine/Transient.World_7:Start_Menu_C_5.WidgetTree_28.Button_85
+[2015.05.11-14.04.53:572][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Game/Start_Menu.Start_Menu_C:WidgetTree_27.Button_85
+[2015.05.11-14.04.53:572][630]LogUObjectHash:Warning: Ambiguous search, could be Button /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85 or Button /Game/Start_Menu.Start_Menu:WidgetTree_1.Button_85
+[2015.05.11-14.04.53:572][630]LogProperty:Warning: Illegal TEXT reference to a private object in external package (ButtonSlot /Engine/Transient.World_7:Start_Menu_C_21.WidgetTree_93.Button_85.ButtonSlot_133) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_87).  Import failed...
+[2015.05.11-14.04.53:572][630]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'ButtonSlot'Button_85.ButtonSlot_133''
+[2015.05.11-14.07.04:475][829]Cmd: TRANSACTION UNDO
+[2015.05.11-14.07.04:475][829]LogEditorTransaction: Undo Wrap Widgets
+[2015.05.11-14.09.33:504][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Menu.uasset" SILENT=true
+[2015.05.11-14.09.33:507][907]LogSavePackage: Save=1.769291ms
+[2015.05.11-14.09.33:507][907]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Menu5D5C502D400CBE9C6994F8A1F9E3D2FC.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Menu.uasset'
+[2015.05.11-14.09.33:514][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Start_Menu" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Start_Menu.uasset" SILENT=true
+[2015.05.11-14.09.33:567][907]LogSavePackage: Save=15.334952ms
+[2015.05.11-14.09.33:567][907]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Start_Menu547D22034BD305EC2E831297385BC26D.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Start_Menu.uasset'
+[2015.05.11-14.09.33:581][907]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.11-14.09.33:637][907]LightingResults: New page: Lighting Build
+[2015.05.11-14.09.33:692][907]LoadErrors: New page: Loading map: PuzzleExampleMap.umap
+[2015.05.11-14.09.33:692][907]MapCheck: New page: Map Check
+[2015.05.11-14.09.33:692][907]LightingResults: New page: Lighting Build
+[2015.05.11-14.09.33:708][907]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FD1B4C0
+[2015.05.11-14.09.33:953][907]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.11-14.09.33:954][907]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.05.11-14.09.34:063][907]Cmd: MAP CHECKDEP
+[2015.05.11-14.09.34:064][907]MapCheck: New page: PuzzleExampleMap - May 11, 2015, 4:09:34 AM
+[2015.05.11-14.09.34:136][907]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.543ms to complete.
+[2015.05.11-14.09.34:136][907]LogFileHelpers: Loading map 'PuzzleExampleMap' took 0.564
+[2015.05.11-14.10.35:789][162]LogSavePackage: Save=113.633766ms
+[2015.05.11-14.10.35:789][162]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/AlphaLevel518ACF1B4E7777E2A1C85E819ACDBD19.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Maps/AlphaLevel.umap'
+[2015.05.11-14.10.35:935][162]LogFileHelpers: Saving map 'AlphaLevel' took 0.515
+[2015.05.11-14.10.57:160][657]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Maps/Menu_map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.11-14.10.57:467][657]LightingResults: New page: Lighting Build
+[2015.05.11-14.10.57:522][657]LoadErrors: New page: Loading map: Menu_map.umap
+[2015.05.11-14.10.57:523][657]MapCheck: New page: Map Check
+[2015.05.11-14.10.57:523][657]LightingResults: New page: Lighting Build
+[2015.05.11-14.10.57:539][657]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000325DA980
+[2015.05.11-14.10.57:606][657]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.11-14.10.57:607][657]LogAIModule: Creating AISystem for world Menu_map
+[2015.05.11-14.10.57:651][657]Cmd: MAP CHECKDEP
+[2015.05.11-14.10.57:651][657]MapCheck: New page: Menu_map - May 11, 2015, 4:10:57 AM
+[2015.05.11-14.10.57:728][657]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.774ms to complete.
+[2015.05.11-14.10.57:728][657]LogFileHelpers: Loading map 'Menu_map' took 0.571
+[2015.05.11-14.14.02:111][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Start_Menu" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Start_Menu.uasset" SILENT=true
+[2015.05.11-14.14.02:164][752]LogSavePackage: Save=14.484578ms
+[2015.05.11-14.14.02:164][752]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Start_Menu672C0F0843CBA35C38E108AD55FB8EC9.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Start_Menu.uasset'
+[2015.05.11-14.14.52:369][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Start_Menu" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Start_Menu.uasset" SILENT=true
+[2015.05.11-14.14.52:418][695]LogSavePackage: Save=16.596951ms
+[2015.05.11-14.14.52:418][695]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Start_MenuC167207D45CC4981DAB775BC3F595728.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Start_Menu.uasset'
+[2015.05.11-14.14.52:873][741]BlueprintLog: New page: Compile Start_Menu
+[2015.05.11-14.14.52:949][741]BlueprintEditorCompileResults: Info [1703.09] Compile of Start_Menu successful! [in 75 ms]
+[2015.05.11-14.15.43:091][665]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.05.11-14.15.43:091][665]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.05.11-14.15.43:091][665]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.05.11-14.15.43:092][665]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.05.11-14.15.43:092][665]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.05.11-14.15.43:092][665]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.05.11-14.15.47:638][717]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.05.11-14.15.47:639][717]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.05.11-14.15.47:639][717]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.05.11-14.15.47:639][717]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.05.11-14.15.47:639][717]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.05.11-14.15.47:640][717]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.05.11-14.21.12:516][ 55]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.11-14.21.12:665][ 55]LogSavePackage: Save=49.649002ms
+[2015.05.11-14.21.12:666][ 55]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Menu_map_Auto2FBAA22874EAD3A7B3BB1A7A249C83B91.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Autosaves/Game/Maps/Menu_map_Auto2.umap'
+[2015.05.11-14.21.12:671][ 55]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Menu_map' took 0.155
+[2015.05.11-14.21.12:671][ 55]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.155
+[2015.05.11-14.25.13:271][544]BlueprintLog: New page: Compile Menu_map
+[2015.05.11-14.25.13:335][544]BlueprintEditorCompileResults: Info [2323.44] Compile of Menu_map successful! [in 64 ms]
+[2015.05.11-14.25.29:393][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu_map" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Maps/Menu_map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.11-14.25.29:517][250]LogSavePackage: Save=61.898048ms
+[2015.05.11-14.25.29:517][250]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Menu_mapBA1F7D5A4ECF0CF53B0B58B235CA4801.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Maps/Menu_map.umap'
+[2015.05.11-14.28.29:062][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Start_Menu" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Start_Menu.uasset" SILENT=true
+[2015.05.11-14.28.29:128][466]LogSavePackage: Save=24.566273ms
+[2015.05.11-14.28.29:128][466]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Start_Menu48BF7BA34E00A37463DB2F9A8A627470.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Start_Menu.uasset'
+[2015.05.11-14.28.29:960][550]BlueprintLog: New page: Compile Start_Menu
+[2015.05.11-14.28.30:032][550]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003281CC20
+[2015.05.11-14.28.30:042][550]BlueprintEditorCompileResults: Info [2520.14] Compile of Start_Menu successful! [in 82 ms]
+[2015.05.11-14.28.32:808][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu_map" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Maps/Menu_map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.11-14.28.32:905][656]LogSavePackage: Save=59.394211ms
+[2015.05.11-14.28.32:905][656]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Menu_map79AB0DFB426BBC59947CD785F5328E61.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Maps/Menu_map.umap'
+[2015.05.11-14.28.45:659][908]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.11-14.28.45:659][908]LogPlayLevel: [PIE] Compiling Menu_map before PIE...
+[2015.05.11-14.28.45:751][908]LogPlayLevel: PIE:  Blueprint regeneration took 91 ms (1 blueprints)
+[2015.05.11-14.28.45:751][908]PIE: New page: PIE session: Menu_map (May 11, 2015, 4:28:45 AM)
+[2015.05.11-14.28.45:755][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003859s)
+[2015.05.11-14.28.45:756][908]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2015.05.11-14.28.45:756][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu_map.Menu_map to /Game/Maps/UEDPIE_0_Menu_map.Menu_map (0.004644s)
+[2015.05.11-14.28.45:797][908]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.05.11-14.28.45:797][908]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.05.11-14.28.45:797][908]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.05.11-14.28.45:797][908]LogWorld: Game class is 'GameMode'
+[2015.05.11-14.28.45:799][908]LogAIModule: Creating AISystem for world Menu_map
+[2015.05.11-14.28.45:800][908]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu_map.Menu_map up for play (max tick rate 0) at 2015.05.11-09.28.45
+[2015.05.11-14.28.45:800][908]LogWorld: Bringing up level for play took: 0.000912
+[2015.05.11-14.28.45:805][908]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu_map -0.232
+[2015.05.11-14.28.47:581][960]LogPackageName: SearchForPackageOnDisk took   0.083s to resolve AlphaLevel.umap
+[2015.05.11-14.28.47:640][960]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve AlphaLevel.umap
+[2015.05.11-14.28.47:641][960]LogNet: Browse: /Game/Maps/AlphaLevel
+[2015.05.11-14.28.47:641][960]LogLoad: LoadMap: /Game/Maps/AlphaLevel
+[2015.05.11-14.28.47:661][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000042DF5260
+[2015.05.11-14.28.47:661][960]Cmd: MEM
+[2015.05.11-14.28.47:699][960]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-14.28.47:699][960]LogMemory: Process Physical Memory: 918.40 MB used, 934.10 MB peak
+[2015.05.11-14.28.47:699][960]LogMemory: Process Virtual Memory: 889.68 MB used, 893.72 MB peak
+[2015.05.11-14.28.47:699][960]LogMemory: Physical Memory: 5281.01 MB used, 8097.22 MB total
+[2015.05.11-14.28.47:699][960]LogMemory: Virtual Memory: 1521.97 MB used, 8388608.00 MB total
+[2015.05.11-14.28.47:699][960]LogMemory: 
+[2015.05.11-14.28.47:699][960]Allocator Stats for TBB: (not implemented)
+[2015.05.11-14.28.47:911][960]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.05.11-14.28.47:912][960]LogAIModule: Creating AISystem for world AlphaLevel
+[2015.05.11-14.28.47:920][960]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AlphaLevel.AlphaLevel up for play (max tick rate 0) at 2015.05.11-09.28.47
+[2015.05.11-14.28.47:922][960]LogWorld: Bringing up level for play took: 0.009573
+[2015.05.11-14.29.03:036][153]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030D94220
+[2015.05.11-14.29.04:231][176]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.11-14.29.04:231][176]LogPlayLevel: [PIE] Compiling Menu_map before PIE...
+[2015.05.11-14.29.04:294][176]LogPlayLevel: PIE:  Blueprint regeneration took 62 ms (1 blueprints)
+[2015.05.11-14.29.04:294][176]PIE: New page: PIE session: Menu_map (May 11, 2015, 4:29:04 AM)
+[2015.05.11-14.29.04:297][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002941s)
+[2015.05.11-14.29.04:298][176]LogPlayLevel: PIE: World Init took: (0.000413s)
+[2015.05.11-14.29.04:298][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu_map.Menu_map to /Game/Maps/UEDPIE_0_Menu_map.Menu_map (0.003558s)
+[2015.05.11-14.29.04:333][176]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.05.11-14.29.04:333][176]LogLinker:Warning: Can't find file '/Game/Blueprints/PuzzleGameMode'
+[2015.05.11-14.29.04:333][176]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Blueprints/PuzzleGameMode.PuzzleGameMode_C'
+[2015.05.11-14.29.04:333][176]LogWorld: Game class is 'GameMode'
+[2015.05.11-14.29.04:335][176]LogAIModule: Creating AISystem for world Menu_map
+[2015.05.11-14.29.04:336][176]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu_map.Menu_map up for play (max tick rate 0) at 2015.05.11-09.29.04
+[2015.05.11-14.29.04:336][176]LogWorld: Bringing up level for play took: 0.000809
+[2015.05.11-14.29.04:338][176]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu_map 0.3
+[2015.05.11-14.29.07:078][260]LogPackageName: SearchForPackageOnDisk took   0.071s to resolve AlphaLevel.umap
+[2015.05.11-14.29.07:134][260]LogPackageName: SearchForPackageOnDisk took   0.055s to resolve AlphaLevel.umap
+[2015.05.11-14.29.07:134][260]LogNet: Browse: /Game/Maps/AlphaLevel
+[2015.05.11-14.29.07:134][260]LogLoad: LoadMap: /Game/Maps/AlphaLevel
+[2015.05.11-14.29.07:154][260]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028B591C0
+[2015.05.11-14.29.07:154][260]Cmd: MEM
+[2015.05.11-14.29.07:171][260]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-14.29.07:171][260]LogMemory: Process Physical Memory: 948.49 MB used, 998.55 MB peak
+[2015.05.11-14.29.07:171][260]LogMemory: Process Virtual Memory: 919.83 MB used, 1000.00 MB peak
+[2015.05.11-14.29.07:171][260]LogMemory: Physical Memory: 5326.46 MB used, 8097.22 MB total
+[2015.05.11-14.29.07:171][260]LogMemory: Virtual Memory: 1546.72 MB used, 8388608.00 MB total
+[2015.05.11-14.29.07:171][260]LogMemory: 
+[2015.05.11-14.29.07:171][260]Allocator Stats for TBB: (not implemented)
+[2015.05.11-14.29.07:347][260]LogWorld: Game class is 'RunnerGameMode_C'
+[2015.05.11-14.29.07:349][260]LogAIModule: Creating AISystem for world AlphaLevel
+[2015.05.11-14.29.07:356][260]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AlphaLevel.AlphaLevel up for play (max tick rate 0) at 2015.05.11-09.29.07
+[2015.05.11-14.29.07:359][260]LogWorld: Bringing up level for play took: 0.009511
+[2015.05.11-14.29.48:079][789]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000224AA980
+[2015.05.11-14.29.49:037][809]Cmd: SELECT NONE
+[2015.05.11-14.29.50:899][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu_map" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Maps/Menu_map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.11-14.29.51:010][845]LogSavePackage: Save=58.296791ms
+[2015.05.11-14.29.51:010][845]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Menu_map688F9C5242A18B13F5451DA6E40D9B51.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Maps/Menu_map.umap'
+[2015.05.11-14.29.52:415][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu_map" FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Maps/Menu_map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.11-14.29.52:515][874]LogSavePackage: Save=62.183216ms
+[2015.05.11-14.29.52:515][874]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/Menu_map9330B3C54D72354BEE8CE4906E4052BC.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Maps/Menu_map.umap'
+[2015.05.11-14.29.57:745][ 96]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Maps/AlphaLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.11-14.29.57:825][ 96]LightingResults: New page: Lighting Build
+[2015.05.11-14.29.57:875][ 96]LoadErrors: New page: Loading map: AlphaLevel.umap
+[2015.05.11-14.29.57:875][ 96]MapCheck: New page: Map Check
+[2015.05.11-14.29.57:875][ 96]LightingResults: New page: Lighting Build
+[2015.05.11-14.29.57:892][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FD356C0
+[2015.05.11-14.29.58:139][ 96]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.11-14.29.58:140][ 96]LogAIModule: Creating AISystem for world AlphaLevel
+[2015.05.11-14.29.58:184][ 96]Cmd: MAP CHECKDEP
+[2015.05.11-14.29.58:184][ 96]MapCheck: New page: AlphaLevel - May 11, 2015, 4:29:58 AM
+[2015.05.11-14.29.58:308][ 96]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 123.707ms to complete.
+[2015.05.11-14.29.58:308][ 96]LogFileHelpers: Loading map 'AlphaLevel' took 0.566
+[2015.05.11-14.30.00:862][112]LogSavePackage: Save=138.344452ms
+[2015.05.11-14.30.00:862][112]LogSavePackage: Moving '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Saved/AlphaLevel142189984738A132036051ADC3F1C8CA.tmp' to '../../../../../../Users/Jeremy Martin/Documents/GitHub/turbo-archer/ENPo/Content/Maps/AlphaLevel.umap'
+[2015.05.11-14.30.05:964][146]Cmd: QUIT_EDITOR
+[2015.05.11-14.30.06:189][146]LogExit: Preparing to exit.
+[2015.05.11-14.30.07:345][146]LogExit: Editor shut down
+[2015.05.11-14.30.07:346][146]LogExit: Transaction tracking system shut down
+[2015.05.11-14.30.07:347][146]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023D7D260
+[2015.05.11-14.30.07:347][146]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018EB76A0
+[2015.05.11-14.30.07:347][146]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018EB6CA0
+[2015.05.11-14.30.07:347][146]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018EB6A20
+[2015.05.11-14.30.07:348][146]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000288222A0
+[2015.05.11-14.30.07:349][146]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002154D3A0
+[2015.05.11-14.30.07:349][146]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002154D4E0
+[2015.05.11-14.30.07:349][146]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028B59580
+[2015.05.11-14.30.07:494][146]LogExit: Object subsystem successfully closed.
+[2015.05.11-14.30.07:627][146]LogModuleManager: Shutting down and abandoning module SequencerWidgets (179)
+[2015.05.11-14.30.07:627][146]LogModuleManager: Shutting down and abandoning module NewLevelDialog (178)
+[2015.05.11-14.30.07:627][146]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.11-14.30.07:627][146]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.11-14.30.07:627][146]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.11-14.30.07:627][146]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.11-14.30.07:627][146]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.11-14.30.07:628][146]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.11-14.30.07:628][146]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.11-14.30.07:628][146]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.11-14.30.07:629][146]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.11-14.30.07:629][146]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.11-14.30.07:629][146]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.11-14.30.07:629][146]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.11-14.30.07:629][146]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.11-14.30.07:629][146]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.11-14.30.07:629][146]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.11-14.30.07:629][146]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.11-14.30.07:629][146]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.11-14.30.07:629][146]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.11-14.30.07:629][146]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.11-14.30.07:630][146]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.11-14.30.07:630][146]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.11-14.30.07:631][146]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.11-14.30.07:631][146]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.11-14.30.07:631][146]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.11-14.30.07:631][146]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.11-14.30.07:631][146]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.11-14.30.07:631][146]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.11-14.30.07:631][146]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.11-14.30.07:631][146]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.11-14.30.07:631][146]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.11-14.30.07:631][146]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.11-14.30.07:631][146]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.11-14.30.08:265][146]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.11-14.30.08:265][146]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.11-14.30.08:265][146]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.11-14.30.08:265][146]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.11-14.30.08:265][146]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.11-14.30.08:265][146]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.11-14.30.08:265][146]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.11-14.30.08:265][146]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.11-14.30.08:266][146]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.11-14.30.08:266][146]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.11-14.30.08:266][146]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.11-14.30.08:266][146]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.11-14.30.08:267][146]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.11-14.30.08:267][146]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.11-14.30.08:267][146]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.11-14.30.08:268][146]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.11-14.30.08:268][146]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.11-14.30.08:268][146]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.11-14.30.08:269][146]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.11-14.30.08:315][146]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.11-14.30.08:317][146]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.11-14.30.08:317][146]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.11-14.30.08:319][146]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.11-14.30.08:320][146]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.11-14.30.08:498][146]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.11-14.30.08:498][146]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.11-14.30.08:498][146]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.11-14.30.08:498][146]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.11-14.30.08:498][146]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.11-14.30.08:498][146]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.11-14.30.08:500][146]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.11-14.30.08:500][146]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.11-14.30.08:500][146]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.11-14.30.08:500][146]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.11-14.30.08:500][146]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.11-14.30.08:500][146]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.11-14.30.08:500][146]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.11-14.30.08:500][146]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.11-14.30.08:500][146]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.11-14.30.08:500][146]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.11-14.30.08:500][146]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.11-14.30.08:500][146]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.11-14.30.08:502][146]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.11-14.30.08:502][146]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.11-14.30.08:502][146]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.11-14.30.08:502][146]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.11-14.30.08:502][146]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.11-14.30.08:502][146]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.11-14.30.08:503][146]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.11-14.30.08:505][146]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.11-14.30.08:522][146]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.11-14.30.08:622][146]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.11-14.30.08:623][146]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.11-14.30.08:625][146]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.11-14.30.08:625][146]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.11-14.30.08:627][146]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.11-14.30.08:627][146]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.11-14.30.08:627][146]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.11-14.30.08:629][146]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.11-14.30.08:629][146]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.11-14.30.08:629][146]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.11-14.30.08:629][146]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.11-14.30.08:629][146]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.11-14.30.08:629][146]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.11-14.30.08:631][146]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.11-14.30.08:631][146]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.11-14.30.08:631][146]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.11-14.30.08:631][146]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.11-14.30.08:634][146]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.11-14.30.08:634][146]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.11-14.30.08:634][146]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.11-14.30.08:634][146]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.11-14.30.08:634][146]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.11-14.30.08:634][146]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.11-14.30.08:634][146]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.11-14.30.08:634][146]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.11-14.30.08:634][146]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.11-14.30.08:635][146]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.11-14.30.08:659][146]LogDerivedDataCache: Shutdown
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.11-14.30.08:659][146]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.11-14.30.08:663][146]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.11-14.30.08:663][146]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.11-14.30.08:663][146]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.11-14.30.08:663][146]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.11-14.30.08:663][146]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.11-14.30.08:663][146]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.11-14.30.08:663][146]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.11-14.30.08:663][146]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.11-14.30.08:663][146]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.11-14.30.08:664][146]LogExit: Exiting.
+[2015.05.11-14.30.08:687][146]Log file closed, 05/11/15 09:30:08
